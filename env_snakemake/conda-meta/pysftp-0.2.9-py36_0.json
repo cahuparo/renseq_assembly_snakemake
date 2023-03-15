@@ -1,0 +1,45 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "paramiko >=1.7.7",
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/pysftp-0.2.9-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pysftp-0.2.9-py3.6.egg",
+    "lib/python3.6/site-packages/pysftp.pth"
+  ],
+  "fn": "pysftp-0.2.9-py36_0.tar.bz2",
+  "license": "BSD License",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/pysftp-0.2.9-py36_0",
+    "type": 1
+  },
+  "md5": "02aeb1325ad2ed4579a1fe6282cc136d",
+  "name": "pysftp",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/pysftp-0.2.9-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/pysftp-0.2.9-py3.6.egg",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pysftp.pth",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aee5653b197bd732430fadd66263f30562e9c764130b215fd376f994df232473",
+  "size": 31916,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pysftp-0.2.9-py36_0.tar.bz2",
+  "version": "0.2.9"
+}

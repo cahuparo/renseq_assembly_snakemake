@@ -1,0 +1,214 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/ftputil-3.2-py36_0",
+  "features": "",
+  "files": [
+    "doc/ftputil/README.txt",
+    "doc/ftputil/ftputil.html",
+    "doc/ftputil/ftputil.txt",
+    "doc/ftputil/whats_new_in_ftputil_3.0.html",
+    "doc/ftputil/whats_new_in_ftputil_3.0.txt",
+    "lib/python3.6/site-packages/ftputil-3.2-py3.6.egg-info",
+    "lib/python3.6/site-packages/ftputil/__init__.py",
+    "lib/python3.6/site-packages/ftputil/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/error.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/file.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/file_transfer.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/host.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/lrucache.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/path.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/session.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/socket_file_adapter.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/stat.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/stat_cache.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/sync.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/tool.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/__pycache__/version.cpython-36.pyc",
+    "lib/python3.6/site-packages/ftputil/compat.py",
+    "lib/python3.6/site-packages/ftputil/error.py",
+    "lib/python3.6/site-packages/ftputil/file.py",
+    "lib/python3.6/site-packages/ftputil/file_transfer.py",
+    "lib/python3.6/site-packages/ftputil/host.py",
+    "lib/python3.6/site-packages/ftputil/lrucache.py",
+    "lib/python3.6/site-packages/ftputil/path.py",
+    "lib/python3.6/site-packages/ftputil/session.py",
+    "lib/python3.6/site-packages/ftputil/socket_file_adapter.py",
+    "lib/python3.6/site-packages/ftputil/stat.py",
+    "lib/python3.6/site-packages/ftputil/stat_cache.py",
+    "lib/python3.6/site-packages/ftputil/sync.py",
+    "lib/python3.6/site-packages/ftputil/tool.py",
+    "lib/python3.6/site-packages/ftputil/version.py"
+  ],
+  "fn": "ftputil-3.2-py36_0.tar.bz2",
+  "license": "BSD License",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/ftputil-3.2-py36_0",
+    "type": 1
+  },
+  "md5": "fdbe5cb9604bcb3e28bac4ddee026f6c",
+  "name": "ftputil",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/ftputil-3.2-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "doc/ftputil/README.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "doc/ftputil/ftputil.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "doc/ftputil/ftputil.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "doc/ftputil/whats_new_in_ftputil_3.0.html",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "doc/ftputil/whats_new_in_ftputil_3.0.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil-3.2-py3.6.egg-info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/compat.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/error.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/file.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/file_transfer.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/host.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/lrucache.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/path.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/session.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/socket_file_adapter.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/stat.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/stat_cache.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/sync.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/tool.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/__pycache__/version.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/compat.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/error.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/file.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/file_transfer.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/host.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/lrucache.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/path.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/session.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/socket_file_adapter.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/stat.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/stat_cache.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/sync.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/tool.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ftputil/version.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b930ec4217b8ab80dcae9f0d41fc23150112d7fb5699d7a941142710599306f6",
+  "size": 87544,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/ftputil-3.2-py36_0.tar.bz2",
+  "version": "3.2"
+}
