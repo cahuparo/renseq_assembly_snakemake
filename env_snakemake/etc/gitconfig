@@ -1,4 +1,0 @@
-[http]
-        sslVerify = true
-        sslCAPath = /data/run/chparada/renseq_assembly_snakemake/env_snakemake/ssl/cacert.pem
-        sslCAInfo = /data/run/chparada/renseq_assembly_snakemake/env_snakemake/ssl/cacert.pem
