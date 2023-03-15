@@ -58,3 +58,24 @@
 +defaults/noarch::urllib3-1.26.8-pyhd3eb1b0_0
 +defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
 # update specs: ['snakemake']
+==> 2023-03-15 10:14:56 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c annaconda git
+# conda version: 22.9.0
++defaults/linux-64::bzip2-1.0.8-h7b6447c_0
++defaults/linux-64::c-ares-1.19.0-h5eee18b_0
++defaults/linux-64::curl-7.88.1-h5eee18b_0
++defaults/linux-64::expat-2.4.9-h6a678d5_0
++defaults/linux-64::gdbm-1.18-hd4cb3f1_4
++defaults/linux-64::gettext-0.21.0-hf68c758_0
++defaults/linux-64::git-2.34.1-pl5262hc120c5b_0
++defaults/linux-64::icu-58.2-he6710b0_3
++defaults/linux-64::krb5-1.19.4-h568e23c_0
++defaults/linux-64::libcurl-7.88.1-h91b91d3_0
++defaults/linux-64::libedit-3.1.20221030-h5eee18b_0
++defaults/linux-64::libev-4.33-h7f8727e_1
++defaults/linux-64::libnghttp2-1.46.0-hce63b2e_0
++defaults/linux-64::libssh2-1.10.0-h8f2d780_0
++defaults/linux-64::libxml2-2.9.14-h74e7548_0
++defaults/linux-64::pcre2-10.37-he7ceb23_1
++defaults/linux-64::perl-5.34.0-h5eee18b_2
+# update specs: ['git']

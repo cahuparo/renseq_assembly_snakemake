@@ -1,0 +1,280 @@
+{
+  "build": "hd4cb3f1_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "readline >=8.0,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/gdbm-1.18-hd4cb3f1_4",
+  "features": "",
+  "files": [
+    "bin/gdbm_dump",
+    "bin/gdbm_load",
+    "bin/gdbmtool",
+    "include/dbm.h",
+    "include/gdbm.h",
+    "include/ndbm.h",
+    "lib/libgdbm.so",
+    "lib/libgdbm.so.6",
+    "lib/libgdbm.so.6.0.0",
+    "lib/libgdbm_compat.so",
+    "lib/libgdbm_compat.so.4",
+    "lib/libgdbm_compat.so.4.0.0",
+    "share/info/gdbm.info",
+    "share/locale/da/LC_MESSAGES/gdbm.mo",
+    "share/locale/de/LC_MESSAGES/gdbm.mo",
+    "share/locale/eo/LC_MESSAGES/gdbm.mo",
+    "share/locale/es/LC_MESSAGES/gdbm.mo",
+    "share/locale/fi/LC_MESSAGES/gdbm.mo",
+    "share/locale/fr/LC_MESSAGES/gdbm.mo",
+    "share/locale/ja/LC_MESSAGES/gdbm.mo",
+    "share/locale/pl/LC_MESSAGES/gdbm.mo",
+    "share/locale/pt_BR/LC_MESSAGES/gdbm.mo",
+    "share/locale/sr/LC_MESSAGES/gdbm.mo",
+    "share/locale/sv/LC_MESSAGES/gdbm.mo",
+    "share/locale/uk/LC_MESSAGES/gdbm.mo",
+    "share/locale/vi/LC_MESSAGES/gdbm.mo",
+    "share/man/man1/gdbm_dump.1",
+    "share/man/man1/gdbm_load.1",
+    "share/man/man1/gdbmtool.1",
+    "share/man/man3/gdbm.3"
+  ],
+  "fn": "gdbm-1.18-hd4cb3f1_4.conda",
+  "legacy_bz2_md5": "8a56d24c01b9cd2190c4640227643664",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/gdbm-1.18-hd4cb3f1_4",
+    "type": 1
+  },
+  "md5": "1c82981848be10bfc91000a0afcefee3",
+  "name": "gdbm",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/gdbm-1.18-hd4cb3f1_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gdbm_dump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gdbm_1667379318716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "7c5d3af13e29a1ab28ccda6bccd3b9a2b271659fecea9035ca568c70499249d2",
+        "sha256_in_prefix": "dd6b63cf9c83365fa68957bc16aec50d8a7b2c901a77eb5e30189ff4fa5dc5c3",
+        "size_in_bytes": 27656
+      },
+      {
+        "_path": "bin/gdbm_load",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gdbm_1667379318716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "5e4efa28f89a6d041f6f48eef7b97560dc330f7d4a8e22efcbdc2674660dcc51",
+        "sha256_in_prefix": "44918ad5699be8c9d0f2cc5562c1853bf12d94fd8f16207a85d6cbebc79cea34",
+        "size_in_bytes": 36696
+      },
+      {
+        "_path": "bin/gdbmtool",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/gdbm_1667379318716/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "b12ab3d26f1e96f9526ac9aa451bbbc30ec00afefbfea4d21e2a369b81ca1bad",
+        "sha256_in_prefix": "be0d482effbaaaafa77bde08b1a7382fe647d8d145eecb7e08bbd26bef0f238b",
+        "size_in_bytes": 122728
+      },
+      {
+        "_path": "include/dbm.h",
+        "path_type": "hardlink",
+        "sha256": "94fae270ff6d9e132351ba3915911b2a83e3d0ef887cc13d96037fb0ebb54425",
+        "sha256_in_prefix": "94fae270ff6d9e132351ba3915911b2a83e3d0ef887cc13d96037fb0ebb54425",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "include/gdbm.h",
+        "path_type": "hardlink",
+        "sha256": "e5cff91244a0e6ef4eb94b3aff369b56925a3095f1eb8c6db8da97312eb8e35f",
+        "sha256_in_prefix": "e5cff91244a0e6ef4eb94b3aff369b56925a3095f1eb8c6db8da97312eb8e35f",
+        "size_in_bytes": 10298
+      },
+      {
+        "_path": "include/ndbm.h",
+        "path_type": "hardlink",
+        "sha256": "fdb16a28ba75681392da685063a5c5ce4011961986c4e21d836571b4f18018b6",
+        "sha256_in_prefix": "fdb16a28ba75681392da685063a5c5ce4011961986c4e21d836571b4f18018b6",
+        "size_in_bytes": 2454
+      },
+      {
+        "_path": "lib/libgdbm.so",
+        "path_type": "softlink",
+        "sha256": "bb3cbf5dbb44ac1510eb68fdd378230da780ffea1a3e59d36363fc13a7554736",
+        "size_in_bytes": 72584
+      },
+      {
+        "_path": "lib/libgdbm.so.6",
+        "path_type": "softlink",
+        "sha256": "bb3cbf5dbb44ac1510eb68fdd378230da780ffea1a3e59d36363fc13a7554736",
+        "size_in_bytes": 72584
+      },
+      {
+        "_path": "lib/libgdbm.so.6.0.0",
+        "path_type": "hardlink",
+        "sha256": "bb3cbf5dbb44ac1510eb68fdd378230da780ffea1a3e59d36363fc13a7554736",
+        "sha256_in_prefix": "bb3cbf5dbb44ac1510eb68fdd378230da780ffea1a3e59d36363fc13a7554736",
+        "size_in_bytes": 72584
+      },
+      {
+        "_path": "lib/libgdbm_compat.so",
+        "path_type": "softlink",
+        "sha256": "4d90215bd2a9f6b9e18a76236e3356fd2d8d10dac47d8ef7c7019a0731bad540",
+        "size_in_bytes": 21360
+      },
+      {
+        "_path": "lib/libgdbm_compat.so.4",
+        "path_type": "softlink",
+        "sha256": "4d90215bd2a9f6b9e18a76236e3356fd2d8d10dac47d8ef7c7019a0731bad540",
+        "size_in_bytes": 21360
+      },
+      {
+        "_path": "lib/libgdbm_compat.so.4.0.0",
+        "path_type": "hardlink",
+        "sha256": "4d90215bd2a9f6b9e18a76236e3356fd2d8d10dac47d8ef7c7019a0731bad540",
+        "sha256_in_prefix": "4d90215bd2a9f6b9e18a76236e3356fd2d8d10dac47d8ef7c7019a0731bad540",
+        "size_in_bytes": 21360
+      },
+      {
+        "_path": "share/info/gdbm.info",
+        "path_type": "hardlink",
+        "sha256": "2fff20657faae00c0b75e092c8e924ec76e7c1c6d9a160b0a56a2ce851e1cd2e",
+        "sha256_in_prefix": "2fff20657faae00c0b75e092c8e924ec76e7c1c6d9a160b0a56a2ce851e1cd2e",
+        "size_in_bytes": 139588
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "2cec7eef15e16790895e42ee24c2e1510c95a005dc740d78b6f1540d35b81df1",
+        "sha256_in_prefix": "2cec7eef15e16790895e42ee24c2e1510c95a005dc740d78b6f1540d35b81df1",
+        "size_in_bytes": 14387
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "513af40488e9ebda62906c3aaf0183a242068a234f88e44f0c25f3c7c647b4bd",
+        "sha256_in_prefix": "513af40488e9ebda62906c3aaf0183a242068a234f88e44f0c25f3c7c647b4bd",
+        "size_in_bytes": 12288
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "54ef043792358ae14e83dd77ddb68843075935e4120047c869ee32cad1f59d16",
+        "sha256_in_prefix": "54ef043792358ae14e83dd77ddb68843075935e4120047c869ee32cad1f59d16",
+        "size_in_bytes": 14692
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "dbaf830cd05ff52c18da86faf7b0b33b1b86626ee4f881b93b8d47ba48d55749",
+        "sha256_in_prefix": "dbaf830cd05ff52c18da86faf7b0b33b1b86626ee4f881b93b8d47ba48d55749",
+        "size_in_bytes": 14847
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "897799c4244bcff4810841a19cd1d2d7f1048a10c0f20cbbee567d59c3692152",
+        "sha256_in_prefix": "897799c4244bcff4810841a19cd1d2d7f1048a10c0f20cbbee567d59c3692152",
+        "size_in_bytes": 12299
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "33138daa31bcc8b773ba4430807ade1abe04a6100d8f66508e7099ea0e887cf8",
+        "sha256_in_prefix": "33138daa31bcc8b773ba4430807ade1abe04a6100d8f66508e7099ea0e887cf8",
+        "size_in_bytes": 15738
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "b6d8d2b2671af698ff4257591f1c2f831ea0ab1fa1d93fd7caa463ee5ae80f51",
+        "sha256_in_prefix": "b6d8d2b2671af698ff4257591f1c2f831ea0ab1fa1d93fd7caa463ee5ae80f51",
+        "size_in_bytes": 6164
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "286ffe5c477098576ccaa2921fa67e41afab9dc8dfcbecd2b69d51e44f2e78dc",
+        "sha256_in_prefix": "286ffe5c477098576ccaa2921fa67e41afab9dc8dfcbecd2b69d51e44f2e78dc",
+        "size_in_bytes": 16737
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "ff85bfebcd5f7a8ec614e10e66e2d3ec7c59fbc48cc0b2e94b541e0512764813",
+        "sha256_in_prefix": "ff85bfebcd5f7a8ec614e10e66e2d3ec7c59fbc48cc0b2e94b541e0512764813",
+        "size_in_bytes": 16594
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "02cb77537c9c266d97ac9561a025e65b5184fda2f0547a4bbdf01f26e62113ae",
+        "sha256_in_prefix": "02cb77537c9c266d97ac9561a025e65b5184fda2f0547a4bbdf01f26e62113ae",
+        "size_in_bytes": 19331
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "5449b9081fc8340806879fad60c94895f41bb1e6be2897f498438fcb0012ba4c",
+        "sha256_in_prefix": "5449b9081fc8340806879fad60c94895f41bb1e6be2897f498438fcb0012ba4c",
+        "size_in_bytes": 14779
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "2c0d39b8e630806bbb83c3918e12724cc183721d5b8008a9317a5cadd5eec076",
+        "sha256_in_prefix": "2c0d39b8e630806bbb83c3918e12724cc183721d5b8008a9317a5cadd5eec076",
+        "size_in_bytes": 21800
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/gdbm.mo",
+        "path_type": "hardlink",
+        "sha256": "462ab18dc646c2e7b54eb082a3739ab37fbad1d6ea8182512b08b1eef8f8d20e",
+        "sha256_in_prefix": "462ab18dc646c2e7b54eb082a3739ab37fbad1d6ea8182512b08b1eef8f8d20e",
+        "size_in_bytes": 18101
+      },
+      {
+        "_path": "share/man/man1/gdbm_dump.1",
+        "path_type": "hardlink",
+        "sha256": "3696bb0689772f29f0c11d60bf4c2d014c2992d8b481396c018e5e64b1c35f67",
+        "sha256_in_prefix": "3696bb0689772f29f0c11d60bf4c2d014c2992d8b481396c018e5e64b1c35f67",
+        "size_in_bytes": 2860
+      },
+      {
+        "_path": "share/man/man1/gdbm_load.1",
+        "path_type": "hardlink",
+        "sha256": "6f1a16feb2b7bb3ba58145b40b7707e0f9db9c96829f950d9af41f67cda99c3e",
+        "sha256_in_prefix": "6f1a16feb2b7bb3ba58145b40b7707e0f9db9c96829f950d9af41f67cda99c3e",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "share/man/man1/gdbmtool.1",
+        "path_type": "hardlink",
+        "sha256": "6ec3be98dd08dd786f3a7ff4bb3bcb2f31ace7bbbe51e80f89d1f817eb884a2f",
+        "sha256_in_prefix": "6ec3be98dd08dd786f3a7ff4bb3bcb2f31ace7bbbe51e80f89d1f817eb884a2f",
+        "size_in_bytes": 13999
+      },
+      {
+        "_path": "share/man/man3/gdbm.3",
+        "path_type": "hardlink",
+        "sha256": "3081e621e54c8b9c8271dd929bcce5487be53e319b57b93c37d15b979181ca49",
+        "sha256_in_prefix": "3081e621e54c8b9c8271dd929bcce5487be53e319b57b93c37d15b979181ca49",
+        "size_in_bytes": 16592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9c68559361c265daefea228e2886b39535f97bffe4ccb186d71df4c42a6e37dd",
+  "size": 198650,
+  "subdir": "linux-64",
+  "timestamp": 1667379356099,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gdbm-1.18-hd4cb3f1_4.conda",
+  "version": "1.18"
+}
