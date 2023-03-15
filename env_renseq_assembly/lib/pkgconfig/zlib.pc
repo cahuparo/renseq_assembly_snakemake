@@ -1,0 +1,13 @@
+prefix=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly
+exec_prefix=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly
+libdir=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib
+sharedlibdir=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib
+includedir=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,3453 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "gnuplot",
+    "java-jdk",
+    "libgcc",
+    "perl-filesys-df",
+    "perl-threaded"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/canu-1.4-1",
+  "features": "",
+  "files": [
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_AssemblyGraph.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_AssemblyGraph.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_BestOverlapGraph.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_BestOverlapGraph.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_ChunkGraph.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_ChunkGraph.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_CreateUnitigs.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_CreateUnitigs.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Instrumentation.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Instrumentation.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Logging.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Logging.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_MarkRepeatReads.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_MarkRepeatReads.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_MergeOrphans.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_MergeOrphans.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Outputs.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Outputs.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_OverlapCache.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_OverlapCache.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceContains.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceContains.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceReadUsingOverlaps.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceReadUsingOverlaps.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PopulateUnitig.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PopulateUnitig.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PromoteToSingleton.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_PromoteToSingleton.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_ReadInfo.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_ReadInfo.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_SetParentAndHang.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_SetParentAndHang.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_SplitDiscontinuous.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_SplitDiscontinuous.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_TigGraph.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_TigGraph.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_TigVector.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_TigVector.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_AddRead.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_AddRead.o",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_PlaceReadUsingEdges.P",
+    "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_PlaceReadUsingEdges.o",
+    "Linux-amd64/obj/bogart/bogart/bogart.P",
+    "Linux-amd64/obj/bogart/bogart/bogart.o",
+    "Linux-amd64/obj/bogus/bogus/bogus.P",
+    "Linux-amd64/obj/bogus/bogus/bogus.o",
+    "Linux-amd64/obj/bogus/bogus/bogusUtil.P",
+    "Linux-amd64/obj/bogus/bogus/bogusUtil.o",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Correct_Frags.P",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Correct_Frags.o",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Prefix_Edit_Distance.P",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Prefix_Edit_Distance.o",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Read_Olaps.P",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Read_Olaps.o",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Redo_Olaps.P",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Redo_Olaps.o",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps.P",
+    "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps.o",
+    "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/createFalconSenseInputs.P",
+    "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/createFalconSenseInputs.o",
+    "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/outputFalcon.P",
+    "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/outputFalcon.o",
+    "Linux-amd64/obj/erateEstimate/erateEstimate/erateEstimate.P",
+    "Linux-amd64/obj/erateEstimate/erateEstimate/erateEstimate.o",
+    "Linux-amd64/obj/errorEstimate/correction/errorEstimate.P",
+    "Linux-amd64/obj/errorEstimate/correction/errorEstimate.o",
+    "Linux-amd64/obj/estimate-mer-threshold/meryl/estimate-mer-threshold.P",
+    "Linux-amd64/obj/estimate-mer-threshold/meryl/estimate-mer-threshold.o",
+    "Linux-amd64/obj/falcon_sense/falcon_sense/falcon_sense.P",
+    "Linux-amd64/obj/falcon_sense/falcon_sense/falcon_sense.o",
+    "Linux-amd64/obj/fastqAnalyze/fastq-utilities/fastqAnalyze.P",
+    "Linux-amd64/obj/fastqAnalyze/fastq-utilities/fastqAnalyze.o",
+    "Linux-amd64/obj/fastqSample/fastq-utilities/fastqSample.P",
+    "Linux-amd64/obj/fastqSample/fastq-utilities/fastqSample.o",
+    "Linux-amd64/obj/fastqSimulate-sort/fastq-utilities/fastqSimulate-sort.P",
+    "Linux-amd64/obj/fastqSimulate-sort/fastq-utilities/fastqSimulate-sort.o",
+    "Linux-amd64/obj/fastqSimulate/fastq-utilities/fastqSimulate.P",
+    "Linux-amd64/obj/fastqSimulate/fastq-utilities/fastqSimulate.o",
+    "Linux-amd64/obj/filterCorrectionOverlaps/correction/filterCorrectionOverlaps.P",
+    "Linux-amd64/obj/filterCorrectionOverlaps/correction/filterCorrectionOverlaps.o",
+    "Linux-amd64/obj/findErrors-Dump/overlapErrorAdjustment/findErrors-Dump.P",
+    "Linux-amd64/obj/findErrors-Dump/overlapErrorAdjustment/findErrors-Dump.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Analyze_Alignment.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Analyze_Alignment.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Output.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Output.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Prefix_Edit_Distance.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Prefix_Edit_Distance.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Process_Olap.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Process_Olap.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Frags.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Frags.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Olaps.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Olaps.o",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors.P",
+    "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors.o",
+    "Linux-amd64/obj/gatekeeperCreate/stores/gatekeeperCreate.P",
+    "Linux-amd64/obj/gatekeeperCreate/stores/gatekeeperCreate.o",
+    "Linux-amd64/obj/gatekeeperDumpFASTQ/stores/gatekeeperDumpFASTQ.P",
+    "Linux-amd64/obj/gatekeeperDumpFASTQ/stores/gatekeeperDumpFASTQ.o",
+    "Linux-amd64/obj/gatekeeperDumpMetaData/stores/gatekeeperDumpMetaData.P",
+    "Linux-amd64/obj/gatekeeperDumpMetaData/stores/gatekeeperDumpMetaData.o",
+    "Linux-amd64/obj/gatekeeperPartition/stores/gatekeeperPartition.P",
+    "Linux-amd64/obj/gatekeeperPartition/stores/gatekeeperPartition.o",
+    "Linux-amd64/obj/generateCorrectionLayouts/correction/generateCorrectionLayouts.P",
+    "Linux-amd64/obj/generateCorrectionLayouts/correction/generateCorrectionLayouts.o",
+    "Linux-amd64/obj/generateCorrectionLayouts/falcon_sense/outputFalcon.P",
+    "Linux-amd64/obj/generateCorrectionLayouts/falcon_sense/outputFalcon.o",
+    "Linux-amd64/obj/generateCorrectionLayouts/utgcns/stashContains.P",
+    "Linux-amd64/obj/generateCorrectionLayouts/utgcns/stashContains.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-blocks.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-blocks.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-duplicates.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-duplicates.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-gc.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-gc.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-partition.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-partition.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-simulate.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-simulate.o",
+    "Linux-amd64/obj/leaff/meryl/leaff-statistics.P",
+    "Linux-amd64/obj/leaff/meryl/leaff-statistics.o",
+    "Linux-amd64/obj/leaff/meryl/leaff.P",
+    "Linux-amd64/obj/leaff/meryl/leaff.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_alloc.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_alloc.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_decodeRange.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_decodeRange.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fasta.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fasta.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fileIO.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fileIO.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_reverseComplement.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_reverseComplement.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_stackTrace.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_stackTrace.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitEncodings.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitEncodings.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedArray.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedArray.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedFile.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedFile.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/dnaAlphabets.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/dnaAlphabets.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/hexDump.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/hexDump.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/kMer.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/kMer.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/md5.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/md5.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/mt19937ar.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/mt19937ar.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/readBuffer.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/readBuffer.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/speedCounter.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/speedCounter.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/sweatShop.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/sweatShop.o",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/timeAndSize.P",
+    "Linux-amd64/obj/libcanu.a/AS_UTL/timeAndSize.o",
+    "Linux-amd64/obj/libcanu.a/AS_global.P",
+    "Linux-amd64/obj/libcanu.a/AS_global.o",
+    "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/falcon.P",
+    "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/falcon.o",
+    "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/kmer_lookup.P",
+    "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/kmer_lookup.o",
+    "Linux-amd64/obj/libcanu.a/meryl/libmeryl.P",
+    "Linux-amd64/obj/libcanu.a/meryl/libmeryl.o",
+    "Linux-amd64/obj/libcanu.a/overlapErrorAdjustment/analyzeAlignment.P",
+    "Linux-amd64/obj/libcanu.a/overlapErrorAdjustment/analyzeAlignment.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/libedlib/edlib.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/libedlib/edlib.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Binomial_Bound.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Binomial_Bound.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Display_Alignment.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Display_Alignment.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-allocateMoreSpace.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-allocateMoreSpace.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-extend.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-extend.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-forward.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-forward.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-reverse.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-reverse.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance.o",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/overlapReadCache.P",
+    "Linux-amd64/obj/libcanu.a/overlapInCore/overlapReadCache.o",
+    "Linux-amd64/obj/libcanu.a/stores/gkStore.P",
+    "Linux-amd64/obj/libcanu.a/stores/gkStore.o",
+    "Linux-amd64/obj/libcanu.a/stores/gkStoreEncode.P",
+    "Linux-amd64/obj/libcanu.a/stores/gkStoreEncode.o",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-sinksource.P",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-sinksource.o",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-stubs-internal.P",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-stubs-internal.o",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy.P",
+    "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovOverlap.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovOverlap.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovStore.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovStore.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreFile.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreFile.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreFilter.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreFilter.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreHistogram.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreHistogram.o",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreWriter.P",
+    "Linux-amd64/obj/libcanu.a/stores/ovStoreWriter.o",
+    "Linux-amd64/obj/libcanu.a/stores/tgStore.P",
+    "Linux-amd64/obj/libcanu.a/stores/tgStore.o",
+    "Linux-amd64/obj/libcanu.a/stores/tgTig.P",
+    "Linux-amd64/obj/libcanu.a/stores/tgTig.o",
+    "Linux-amd64/obj/libcanu.a/stores/tgTigMultiAlignDisplay.P",
+    "Linux-amd64/obj/libcanu.a/stores/tgTigMultiAlignDisplay.o",
+    "Linux-amd64/obj/libcanu.a/stores/tgTigSizeAnalysis.P",
+    "Linux-amd64/obj/libcanu.a/stores/tgTigSizeAnalysis.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDFalcon/dw.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDFalcon/dw.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/Binomial_Bound.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/Binomial_Bound.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-allocateMoreSpace.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-allocateMoreSpace.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-extend.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-extend.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-forward.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-forward.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-reverse.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-reverse.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalign.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalign.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-addRead.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-addRead.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-appendBases.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-appendBases.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-applyAlignment.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-applyAlignment.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-baseCall.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-baseCall.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-mergeRefine.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-mergeRefine.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refine.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refine.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refreshMultiAlign.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refreshMultiAlign.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abColumn.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abColumn.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abMultiAlign.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/abMultiAlign.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/unitigConsensus.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libcns/unitigConsensus.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/Alignment.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/Alignment.o",
+    "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/AlnGraphBoost.P",
+    "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/AlnGraphBoost.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaFile.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaFile.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaStdin.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaStdin.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqFile.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqFile.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqStdin.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqStdin.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/gkStoreFile.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/gkStoreFile.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/merStream.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/merStream.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqCache.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqCache.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqFactory.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqFactory.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStore.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStore.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStream.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStream.o",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/sffFile.P",
+    "Linux-amd64/obj/libleaff.a/meryl/libleaff/sffFile.o",
+    "Linux-amd64/obj/maskMers/meryl/maskMers.P",
+    "Linux-amd64/obj/maskMers/meryl/maskMers.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-args.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-args.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-binaryOp.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-binaryOp.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-build.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-build.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-dump.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-dump.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-estimate.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-estimate.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-merge.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-merge.o",
+    "Linux-amd64/obj/meryl/meryl/meryl-unaryOp.P",
+    "Linux-amd64/obj/meryl/meryl/meryl-unaryOp.o",
+    "Linux-amd64/obj/meryl/meryl/meryl.P",
+    "Linux-amd64/obj/meryl/meryl/meryl.o",
+    "Linux-amd64/obj/mhapConvert/mhap/mhapConvert.P",
+    "Linux-amd64/obj/mhapConvert/mhap/mhapConvert.o",
+    "Linux-amd64/obj/mmapConvert/minimap/mmapConvert.P",
+    "Linux-amd64/obj/mmapConvert/minimap/mmapConvert.o",
+    "Linux-amd64/obj/ovStoreBucketizer/stores/ovStoreBucketizer.P",
+    "Linux-amd64/obj/ovStoreBucketizer/stores/ovStoreBucketizer.o",
+    "Linux-amd64/obj/ovStoreBuild/stores/ovStoreBuild.P",
+    "Linux-amd64/obj/ovStoreBuild/stores/ovStoreBuild.o",
+    "Linux-amd64/obj/ovStoreDump/stores/ovStoreDump.P",
+    "Linux-amd64/obj/ovStoreDump/stores/ovStoreDump.o",
+    "Linux-amd64/obj/ovStoreIndexer/stores/ovStoreIndexer.P",
+    "Linux-amd64/obj/ovStoreIndexer/stores/ovStoreIndexer.o",
+    "Linux-amd64/obj/ovStoreSorter/stores/ovStoreSorter.P",
+    "Linux-amd64/obj/ovStoreSorter/stores/ovStoreSorter.o",
+    "Linux-amd64/obj/ovStoreStats/stores/ovStoreStats.P",
+    "Linux-amd64/obj/ovStoreStats/stores/ovStoreStats.o",
+    "Linux-amd64/obj/overlapConvert/overlapInCore/overlapConvert.P",
+    "Linux-amd64/obj/overlapConvert/overlapInCore/overlapConvert.o",
+    "Linux-amd64/obj/overlapImport/overlapInCore/overlapImport.P",
+    "Linux-amd64/obj/overlapImport/overlapInCore/overlapImport.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Build_Hash_Index.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Build_Hash_Index.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Find_Overlaps.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Find_Overlaps.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Output.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Output.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_Overlaps.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_Overlaps.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_String_Overlaps.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_String_Overlaps.o",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore.P",
+    "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore.o",
+    "Linux-amd64/obj/overlapInCorePartition/overlapInCore/overlapInCorePartition.P",
+    "Linux-amd64/obj/overlapInCorePartition/overlapInCore/overlapInCorePartition.o",
+    "Linux-amd64/obj/overlapPair/overlapInCore/overlapPair.P",
+    "Linux-amd64/obj/overlapPair/overlapInCore/overlapPair.o",
+    "Linux-amd64/obj/prefixEditDistance-matchLimitGenerate/overlapInCore/liboverlap/prefixEditDistance-matchLimitGenerate.P",
+    "Linux-amd64/obj/prefixEditDistance-matchLimitGenerate/overlapInCore/liboverlap/prefixEditDistance-matchLimitGenerate.o",
+    "Linux-amd64/obj/readConsensus/correction/readConsensus.P",
+    "Linux-amd64/obj/readConsensus/correction/readConsensus.o",
+    "Linux-amd64/obj/simple/meryl/simple.P",
+    "Linux-amd64/obj/simple/meryl/simple.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustFlipped.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustFlipped.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustNormal.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustNormal.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-subReads.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-subReads.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-trimBad.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-trimBad.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-workUnit.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-workUnit.o",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads.P",
+    "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads.o",
+    "Linux-amd64/obj/tgStoreCompress/stores/tgStoreCompress.P",
+    "Linux-amd64/obj/tgStoreCompress/stores/tgStoreCompress.o",
+    "Linux-amd64/obj/tgStoreCoverageStat/stores/tgStoreCoverageStat.P",
+    "Linux-amd64/obj/tgStoreCoverageStat/stores/tgStoreCoverageStat.o",
+    "Linux-amd64/obj/tgStoreDump/stores/tgStoreDump.P",
+    "Linux-amd64/obj/tgStoreDump/stores/tgStoreDump.o",
+    "Linux-amd64/obj/tgStoreDump/stores/tgTigSizeAnalysis.P",
+    "Linux-amd64/obj/tgStoreDump/stores/tgTigSizeAnalysis.o",
+    "Linux-amd64/obj/tgStoreFilter/stores/tgStoreFilter.P",
+    "Linux-amd64/obj/tgStoreFilter/stores/tgStoreFilter.o",
+    "Linux-amd64/obj/tgStoreLoad/stores/tgStoreLoad.P",
+    "Linux-amd64/obj/tgStoreLoad/stores/tgStoreLoad.o",
+    "Linux-amd64/obj/tgTigDisplay/stores/tgTigDisplay.P",
+    "Linux-amd64/obj/tgTigDisplay/stores/tgTigDisplay.o",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-bestEdge.P",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-bestEdge.o",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-largestCovered.P",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-largestCovered.o",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-quality.P",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-quality.o",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads.P",
+    "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads.o",
+    "Linux-amd64/obj/utgcns/utgcns/stashContains.P",
+    "Linux-amd64/obj/utgcns/utgcns/stashContains.o",
+    "Linux-amd64/obj/utgcns/utgcns/utgcns.P",
+    "Linux-amd64/obj/utgcns/utgcns/utgcns.o",
+    "bin/bogart",
+    "bin/bogus",
+    "bin/canu",
+    "bin/cc1",
+    "bin/cc1obj",
+    "bin/cc1plus",
+    "bin/collect2",
+    "bin/correctOverlaps",
+    "bin/createFalconSenseInputs",
+    "bin/erateEstimate",
+    "bin/errorEstimate",
+    "bin/estimate-mer-threshold",
+    "bin/f951",
+    "bin/falcon_sense",
+    "bin/fastqAnalyze",
+    "bin/fastqSample",
+    "bin/fastqSimulate",
+    "bin/fastqSimulate-sort",
+    "bin/filterCorrectionOverlaps",
+    "bin/findErrors",
+    "bin/findErrors-Dump",
+    "bin/fixinc.sh",
+    "bin/fixincl",
+    "bin/gatekeeperCreate",
+    "bin/gatekeeperDumpFASTQ",
+    "bin/gatekeeperDumpMetaData",
+    "bin/gatekeeperPartition",
+    "bin/generateCorrectionLayouts",
+    "bin/gengtype",
+    "bin/jc1",
+    "bin/jvgenmain",
+    "bin/leaff",
+    "bin/liblto_plugin.so.0.0.0",
+    "bin/lto-wrapper",
+    "bin/lto1",
+    "bin/maskMers",
+    "bin/meryl",
+    "bin/mhapConvert",
+    "bin/mkheaders",
+    "bin/mkinstalldirs",
+    "bin/mmapConvert",
+    "bin/ovStoreBucketizer",
+    "bin/ovStoreBuild",
+    "bin/ovStoreDump",
+    "bin/ovStoreIndexer",
+    "bin/ovStoreSorter",
+    "bin/ovStoreStats",
+    "bin/overlapConvert",
+    "bin/overlapImport",
+    "bin/overlapInCore",
+    "bin/overlapInCorePartition",
+    "bin/overlapPair",
+    "bin/prefixEditDistance-matchLimitGenerate",
+    "bin/readConsensus",
+    "bin/simple",
+    "bin/splitReads",
+    "bin/tgStoreCompress",
+    "bin/tgStoreCoverageStat",
+    "bin/tgStoreDump",
+    "bin/tgStoreFilter",
+    "bin/tgStoreLoad",
+    "bin/tgTigDisplay",
+    "bin/trimReads",
+    "bin/utgcns",
+    "libexec/bogart",
+    "libexec/bogus",
+    "libexec/canu",
+    "libexec/canu.defaults",
+    "libexec/correctOverlaps",
+    "libexec/createFalconSenseInputs",
+    "libexec/erateEstimate",
+    "libexec/errorEstimate",
+    "libexec/estimate-mer-threshold",
+    "libexec/falcon_sense",
+    "libexec/fastqAnalyze",
+    "libexec/fastqSample",
+    "libexec/fastqSimulate",
+    "libexec/fastqSimulate-sort",
+    "libexec/filterCorrectionOverlaps",
+    "libexec/findErrors",
+    "libexec/findErrors-Dump",
+    "libexec/gatekeeperCreate",
+    "libexec/gatekeeperDumpFASTQ",
+    "libexec/gatekeeperDumpMetaData",
+    "libexec/gatekeeperPartition",
+    "libexec/generateCorrectionLayouts",
+    "libexec/leaff",
+    "libexec/lib/canu/Configure.pm",
+    "libexec/lib/canu/Consensus.pm",
+    "libexec/lib/canu/CorrectReads.pm",
+    "libexec/lib/canu/Defaults.pm",
+    "libexec/lib/canu/ErrorEstimate.pm",
+    "libexec/lib/canu/Execution.pm",
+    "libexec/lib/canu/Gatekeeper.pm",
+    "libexec/lib/canu/Grid.pm",
+    "libexec/lib/canu/Grid_LSF.pm",
+    "libexec/lib/canu/Grid_PBSTorque.pm",
+    "libexec/lib/canu/Grid_SGE.pm",
+    "libexec/lib/canu/Grid_Slurm.pm",
+    "libexec/lib/canu/HTML.pm",
+    "libexec/lib/canu/Meryl.pm",
+    "libexec/lib/canu/Output.pm",
+    "libexec/lib/canu/OverlapBasedTrimming.pm",
+    "libexec/lib/canu/OverlapErrorAdjustment.pm",
+    "libexec/lib/canu/OverlapInCore.pm",
+    "libexec/lib/canu/OverlapMMap.pm",
+    "libexec/lib/canu/OverlapMhap.pm",
+    "libexec/lib/canu/OverlapStore.pm",
+    "libexec/lib/canu/Unitig.pm",
+    "libexec/libcanu.a",
+    "libexec/libleaff.a",
+    "libexec/maskMers",
+    "libexec/meryl",
+    "libexec/mhap-2.1.2.jar",
+    "libexec/mhapConvert",
+    "libexec/mmapConvert",
+    "libexec/ovStoreBucketizer",
+    "libexec/ovStoreBuild",
+    "libexec/ovStoreDump",
+    "libexec/ovStoreIndexer",
+    "libexec/ovStoreSorter",
+    "libexec/ovStoreStats",
+    "libexec/overlapConvert",
+    "libexec/overlapImport",
+    "libexec/overlapInCore",
+    "libexec/overlapInCorePartition",
+    "libexec/overlapPair",
+    "libexec/prefixEditDistance-matchLimitGenerate",
+    "libexec/readConsensus",
+    "libexec/simple",
+    "libexec/splitReads",
+    "libexec/tgStoreCompress",
+    "libexec/tgStoreCoverageStat",
+    "libexec/tgStoreDump",
+    "libexec/tgStoreFilter",
+    "libexec/tgStoreLoad",
+    "libexec/tgTigDisplay",
+    "libexec/trimReads",
+    "libexec/utgcns"
+  ],
+  "fn": "canu-1.4-1.tar.bz2",
+  "license": "GPLv2 and others",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/canu-1.4-1",
+    "type": 1
+  },
+  "md5": "360a2f6c3e0b864fc1d06458c80cc927",
+  "name": "canu",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/canu-1.4-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_AssemblyGraph.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1ba6a02233ff9f17975c67be7e5c64518e40b17e1318565e5c4c7803fa742430"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_AssemblyGraph.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_BestOverlapGraph.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ccea698ce9be892c5258ed79a4eea51d98b6dab268d91e9b33fe0e4bc4974118"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_BestOverlapGraph.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "7e37cd75b7a0dac6090d5b3bf2cf4dd629dfa4eb1fe3fac2115059d315cfc3c0"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_ChunkGraph.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a60c1ea4b918f19d37edd3949c153cd7c365346ace579ccc99f45e934a91936c"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_ChunkGraph.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "3645a5f60a382e6af3e249b3f6bcf2a50b18a94dd85a71f328471f269fa465d5"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_CreateUnitigs.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "fa8945321f5d72ab090568f1521385b3b5db3a52151b8b371561622867cfb890"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_CreateUnitigs.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "f3c35451ed42cab5460e63dd9ea834b93d342cc782ba58a9abddfab0fe5cc8ad"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Instrumentation.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "8ec160581ff99910e9ebcb2af740ae2d3cca428a349734bbaaf0b0a5a5ad6f4b"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Instrumentation.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "a6b9d20900dbfd39ee393808727f41da1ac9e302d3d578f435b7a268b3d770e2"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Logging.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f73d5026783e53ebcdc76603d3f38da0aba9879585d46d10b079e9d0154fbeaa"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Logging.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_MarkRepeatReads.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0e70110c2830cf4c4def70da55dcb4be8e51bcacf2ba54f5c57d4e8e463be7a9"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_MarkRepeatReads.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "862ed4d85491a335676b468366ef86e68a655e525e70f19ed2aa94a019948a13"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_MergeOrphans.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "dff5612a793223a12558746d58696f3e4a7b05d10acdb074e2684be2737600cb"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_MergeOrphans.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "c9623bc9425a1c5c2420d62f106ba388bd238e52cb67f61a89453add1c4b63dd"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Outputs.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "17450c47ab52c92af95189ce474a7dba7677a4ff305f36b6024d6b5ab2d881c9"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Outputs.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_OverlapCache.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "e204ec11853b7a65b3af114e52c4eee8adc02953e53ede6ce8765de22ae126fc"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_OverlapCache.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "60d452d7733e7a88a2f94e406f8abe601b928438dcd7980aa1cd19505796272b"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceContains.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a1518bbe7742435d154a748be85f00421833caefe9de00277834e2e0ad0650cd"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceContains.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "1cf26e98fe09a4742d7af752c7a9120daf0f9b59584d25016b01e7dd07b405de"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceReadUsingOverlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b025d5781b8d2224e08b47181399270ed31f7dd79b5262bf11685c1b7c2daff6"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PlaceReadUsingOverlaps.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "fe1e822bcf2cb67c83868cb54c4dcb3d1f6e18630d9df73205d8f9bbb9ce984e"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PopulateUnitig.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7dc805acb8f0235267bfb27224b539be357260c23ba52796b8e8a19488873aac"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PopulateUnitig.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PromoteToSingleton.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f618a063c9aeccfb4826bf850aff75b7d1385d20c23828be9fe02a6da5372550"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_PromoteToSingleton.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_ReadInfo.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1b7ace7c579faf4dd971462c348768377e2c5ef2c48dbfde4855389c2d715b30"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_ReadInfo.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_SetParentAndHang.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9f84f252a485961e9183799b0cd5c6a7a85619f9ce380edcddb5a77fb1693890"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_SetParentAndHang.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_SplitDiscontinuous.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9eaef3d8f3611049c7a4277bc850ef08301298293e1cb3162706c9e5cb161b6c"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_SplitDiscontinuous.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_TigGraph.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6f784600e008518feaaeead7fb3cec52d0048efb455382d64a42842999d6f6f7"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_TigGraph.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_TigVector.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c468e9e819712a976814a744eebda65f54dc20e5041eb0f56a361af5710dfe9b"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_TigVector.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a591fb77bccbb9b83edfc52a0f408ea1896c3e7dad5e1e10ad91a3280e202fb7"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "127f2b5348cb3f26dbf11d7f3f651ee1d17cf96861a3c38dc7f9b12533387a7f"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_AddRead.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "8552f9af44525cb301c43bcadfd7dfcb57d09495e7256cdce93e544439d46965"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_AddRead.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_PlaceReadUsingEdges.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7c33f2e172f770021945450fa4b900402793e4fc1afdae0a0edc33a7f218f26b"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/AS_BAT_Unitig_PlaceReadUsingEdges.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/bogart.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c267729b2238de7f997085f3a774f344667830f34d577bdaf3095165948cbe21"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogart/bogart/bogart.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogus/bogus/bogus.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6835ba9c8dde38cfce26089d07d9f6d9066f5a76b44805392851600f8b795d49"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogus/bogus/bogus.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "27eb7559335e91ee1b26fc21032f21fd39fc258ebd267fd511dea9a864b66a91"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogus/bogus/bogusUtil.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a0ed28251aac18af116eb0be5511da22dc26c3a76e8306a0b5ae0bb3c7308012"
+      },
+      {
+        "_path": "Linux-amd64/obj/bogus/bogus/bogusUtil.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Correct_Frags.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "695f85d7fb47828fd92e49168570b31db66dc08e8c753f3aaef1110d33b8f5f4"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Correct_Frags.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Prefix_Edit_Distance.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "49920ba9f1b6ad34d3dd9973d934c97e97ff5bf96184535004675ae8bef916d8"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Prefix_Edit_Distance.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Read_Olaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7cdc09767d2cef4edf96f6c9ce3adc6e8d19a6db76c7ead041eb6756f7db521f"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Read_Olaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Redo_Olaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "78b4b795199c6663404ec8ade2ef50c424889c444cdd9d559f3795a82781d075"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps-Redo_Olaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "19ef22c4d58e511bcd300ee943fff94029c1afbc7cfad3efb2a0abefa3487ad9"
+      },
+      {
+        "_path": "Linux-amd64/obj/correctOverlaps/overlapErrorAdjustment/correctOverlaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/createFalconSenseInputs.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "49a4d308468ec4f6b69b8a9b4e37a4d16479e07f5abcbc27a41d501b6f96ba94"
+      },
+      {
+        "_path": "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/createFalconSenseInputs.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "62661a5bc7c8db965df5c99540dcd7e2758c426a81584fcc386fc0578d9dfd4b"
+      },
+      {
+        "_path": "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/outputFalcon.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "669cf29fbc1e69591b4ff1fd816e40113a9bd080d3392c86b78f21daec2ff020"
+      },
+      {
+        "_path": "Linux-amd64/obj/createFalconSenseInputs/falcon_sense/outputFalcon.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/erateEstimate/erateEstimate/erateEstimate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a0fcf73fea266e2cfc3e4b2265dbc41c31cb27afea3cf3481e030e282dedd792"
+      },
+      {
+        "_path": "Linux-amd64/obj/erateEstimate/erateEstimate/erateEstimate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/errorEstimate/correction/errorEstimate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0a9be0a18f2401f1b631e70f7e93287d7f102781e16917ddd480b2e162e260c0"
+      },
+      {
+        "_path": "Linux-amd64/obj/errorEstimate/correction/errorEstimate.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "5505e92bbb1eabf860da9d4fd09033b82aaaab6c975335566f369dc4b9a41978"
+      },
+      {
+        "_path": "Linux-amd64/obj/estimate-mer-threshold/meryl/estimate-mer-threshold.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3b26487c63b9006761e5a0c1f3f090283fe10917c08ea9e0ef3169d1f73c1d0e"
+      },
+      {
+        "_path": "Linux-amd64/obj/estimate-mer-threshold/meryl/estimate-mer-threshold.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/falcon_sense/falcon_sense/falcon_sense.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "cf59d204ef413ec39d6e064ea7706b81623f125fcec7dae8c53d3329be0f03c1"
+      },
+      {
+        "_path": "Linux-amd64/obj/falcon_sense/falcon_sense/falcon_sense.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqAnalyze/fastq-utilities/fastqAnalyze.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "599364c000c55388aedaf78616fe9dabbad72567057e548c74f812f775dc4f65"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqAnalyze/fastq-utilities/fastqAnalyze.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "650f2012efa3ac1c8fd10ef144b93fda5a39f8fbebd5f354199125763dc13cd5"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSample/fastq-utilities/fastqSample.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "58fb102f3f1a8c0cf96ee4f19468197b031e577da1d18e72bb7ac0ac45efd9ed"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSample/fastq-utilities/fastqSample.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "7c9158c5cd08b71eae7a4cc5f1515333df10bc025abefe9364d81f7163e5c7e7"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSimulate-sort/fastq-utilities/fastqSimulate-sort.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "5e7a4b776ca5a8645ad93d73cf2908428df17de1fdb74fe7454528c2c7b330df"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSimulate-sort/fastq-utilities/fastqSimulate-sort.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "b04df247989ad05cf53ec388d52fb2cf92f93d77706b4d6ae7aa6127fc52cb36"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSimulate/fastq-utilities/fastqSimulate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c7cfbc46214ed7620831755715679e42c55f3f3b1118f20d9efd0c317652d4fc"
+      },
+      {
+        "_path": "Linux-amd64/obj/fastqSimulate/fastq-utilities/fastqSimulate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/filterCorrectionOverlaps/correction/filterCorrectionOverlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6557e14ffc62352902d1c5608f970cdb16be40d5da14822c45a10d89edf25dbc"
+      },
+      {
+        "_path": "Linux-amd64/obj/filterCorrectionOverlaps/correction/filterCorrectionOverlaps.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "742550fad30c0fa29e98faa7391139ffea8aa8995b0d24f33d1a5c48ea71a035"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors-Dump/overlapErrorAdjustment/findErrors-Dump.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "78d14813e19082b7b1deb58c3648f24dc806cfc38da108d77a6b98a4aae137d0"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors-Dump/overlapErrorAdjustment/findErrors-Dump.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Analyze_Alignment.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4ecc5a6d450468b657daa32ea940e3c3c69f06f57b01c6db9962efcf3a7b084e"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Analyze_Alignment.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Output.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "83a923eb0c379928f3bf8df69e45bb79f0d44d3a8f970e4494057bf8a266bc95"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Output.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Prefix_Edit_Distance.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9c2883ada773bec28ae8d8718c30e2e2df24b096f07928699fe0bf154d6e0c20"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Prefix_Edit_Distance.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Process_Olap.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d14a2a9401e77825088b5f8803249ee7338009ebb8c57add14b5d37bbe526901"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Process_Olap.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Frags.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f78086fe7064c25c787ddbf78769f5167e958d003ab95dec0085dc1a211e9eba"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Frags.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Olaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ca7df67ccb23f6fabe72df614f0a3bbf3358c0a6bddea065c67fee35567c130e"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors-Read_Olaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c0c32bd461be13d508e56cc6e4a297a9f286e84f4d14e9bdb62549cb904f53a4"
+      },
+      {
+        "_path": "Linux-amd64/obj/findErrors/overlapErrorAdjustment/findErrors.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "d3f6652077643ef98aa87db243ec8a4e8b52030242eb9387a58f0f6ddac017f0"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperCreate/stores/gatekeeperCreate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "cc2b4f7348e7b189236d16dbf6abd906501f4adc71d2fcf1243c583cfeeb3bfd"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperCreate/stores/gatekeeperCreate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperDumpFASTQ/stores/gatekeeperDumpFASTQ.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bb86f8ec7c50bfa539d733a71c76e1fcb449f0917d90b6ee959023cf14c89605"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperDumpFASTQ/stores/gatekeeperDumpFASTQ.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperDumpMetaData/stores/gatekeeperDumpMetaData.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "47fc4f8f7d16a5aac4c728b0fc1bfd71ff6075f6a70fb983580c2c6bc2b20099"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperDumpMetaData/stores/gatekeeperDumpMetaData.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperPartition/stores/gatekeeperPartition.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ace63a31f798f2f251eb9d62624962c091217cb16ee229a5dc010e0a9ead6555"
+      },
+      {
+        "_path": "Linux-amd64/obj/gatekeeperPartition/stores/gatekeeperPartition.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/correction/generateCorrectionLayouts.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "8b5bafb3de9aede099bcb67e897cbf0a001d23b68253d1536c2e256484ef458d"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/correction/generateCorrectionLayouts.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/falcon_sense/outputFalcon.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1a2ffac771bd175a9ddd85563e827021f531122a48064e2cc8be3d5dd2f7d9b9"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/falcon_sense/outputFalcon.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/utgcns/stashContains.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "66bdcdadc1cebc7f986ca611f76853a9f67be6e7501ef841226c5c8db718f126"
+      },
+      {
+        "_path": "Linux-amd64/obj/generateCorrectionLayouts/utgcns/stashContains.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "e525cff02c712c4926da5234908fd626383dd9d4f73514b8bc20395850cda8a8"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-blocks.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "e237b9778c89b5712e97692f7126de8cd03b9519a210f7968c435bafc3e1dd0c"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-blocks.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-duplicates.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "119d06de8e49ea87aeae8f87ed46cc3c597e2fa77cb515389c048e170e9d26cd"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-duplicates.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-gc.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c24d66ee937f91dd4eaaaf92ec6ee06549de3fff3ef109ba4217bd19a9c5ed28"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-gc.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-partition.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "608d0c95e8ddfd69a5201624430496ba4b836459d5c6f80c1496e78e9424c0a3"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-partition.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-simulate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4829c95265603dcfd625c356e6be904709828de203d60989267f6bd3c4f7694d"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-simulate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-statistics.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ee03d222747f53aff502990ae5658206cf2709454685795eb139372e7711b3e8"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff-statistics.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "029b7377918699b673f4d6f9cf6f1431fb00b143ab82ff3aa483c5c17c9796ea"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "99c9a6d134af25e639fa7589a71bc8a76d1358bf5be3b8e1750e3e7b238b9d4d"
+      },
+      {
+        "_path": "Linux-amd64/obj/leaff/meryl/leaff.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_alloc.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "fb6a6cadf19c4bfc5de37167eb5f11c2ef745868465ddcb96813533584a5e5ec"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_alloc.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_decodeRange.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4f48d49e82524b45d69e110c3ca4eb64f2bab66ae0f80bbe8a533c36c79f20e5"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_decodeRange.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fasta.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bddae914af6b5f1b3ecb4ce805422323dcf7f9f968f4068bdc2c024500236ef1"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fasta.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fileIO.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ace6bdbe74fba50ccf9e0e9acbe803c5d0887f71cca3c46c8cc42ffce8a0a3b8"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_fileIO.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_reverseComplement.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d00bccbd23eec7f87b29e5ecd79542f7c22ca08433e95b08ccc48ee83a5e8ef9"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_reverseComplement.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_stackTrace.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4979b3b288f769db60a3c465540da7f9a7ef4ed11be3af5347461b18530f248b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/AS_UTL_stackTrace.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitEncodings.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "be222171523da50714b4c16c72cbd5d29c6cf90d79ea10a25c70ba2b9734bfcf"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitEncodings.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedArray.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "32866e14d99693df82835b4d86da55e0418eaa979633694a1997b8b057d284d2"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedArray.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b0694c59063782382d3b7e45cee1f68ade86d2e280f594f8a7a76380a0f2be85"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/bitPackedFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/dnaAlphabets.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4b4841c6119ac708a03c5d8d72057b1a3b70bcbb80f65d024198b6e98e8acf89"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/dnaAlphabets.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/hexDump.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bae71ef618520be9b30cf2063428b2ecae38158407e8d8cd95c78c93eb77cf34"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/hexDump.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/kMer.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f940cd97879c3e4b560b01c03ffe1ba66f9f74f46dec3da1654621a37dfa218f"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/kMer.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/md5.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bd40055e89b020b4b38b193da7630fd0420a3c5c70b3b4ed48be82dbf93ce37e"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/md5.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/mt19937ar.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "497c665fca698f58a0e47bae79531b0d19222596e401904b8d033589c6db9867"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/mt19937ar.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/readBuffer.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f5ba5d7d77c971cf9959d79d5c95198b7adef9d48e8a2b3d6d1176c97897b785"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/readBuffer.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/speedCounter.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6c5314b1e5c71b0574bd05c0cf762409704fc50e6670707741b4b544b6fc6cd1"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/speedCounter.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/sweatShop.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b7958fbce027d519f06c2aad9cdfaf418f985d59236fd3049cdd4c63bd9754e6"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/sweatShop.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/timeAndSize.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "94ea0b4f09dfd1c08713f3ff5f607b043ea7fe9e1760097a9360aebea9fa3cca"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_UTL/timeAndSize.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_global.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ca220303a3eab5364a87bfaab1d73fba85c9ea10ff577b9c03c44fa40050cee8"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/AS_global.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/falcon.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "620afd5653994adbb9a2e5c9e969004c5101b1b6a68aeec22be81de0f4dbddbc"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/falcon.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/kmer_lookup.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1e6a629a8880392e94b66f51734257fff1664a92cd928b942bcc83403720984a"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/falcon_sense/libfalcon/kmer_lookup.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/meryl/libmeryl.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7f383bb4305fef4310cf430115ec98ccc1de40a2fb665881de0af47e2b8a3212"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/meryl/libmeryl.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapErrorAdjustment/analyzeAlignment.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c100b4e69c592f53df5cc5a5418d304c1690cfc43f5bed5e9f18261f6594879d"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapErrorAdjustment/analyzeAlignment.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/libedlib/edlib.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4613fda3b2df9e8fd6d8cb43e4f6cf6ccf2d77aaeca51ceb0401da6bb7465c79"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/libedlib/edlib.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Binomial_Bound.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "03f1f2599fc0e068e84259c10ac79ee5684cd425377f467577daab227b414c5e"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Binomial_Bound.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Display_Alignment.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "55e5bc8dfe5aec5cf6822b8da633e23ccb9d9c4f00bced8b3094c5298e175207"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/Display_Alignment.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-allocateMoreSpace.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3525505489bd63a7196b52abe1e4331fc75cb08917b913bad6f983a5b63e5670"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-allocateMoreSpace.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-extend.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3f29371b1e48017affeca761cee716970e87b884a48e268e9ba3dc5768633918"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-extend.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-forward.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d1247034e84d75934c78f9941801c3944ba7407ffa79d461665adbbf7c4b9727"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-forward.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-reverse.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4916355c02deba3b9b68334c0599918a61fd71d085018fb681f25ca83d8520d6"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance-reverse.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "dbeb1cb1a0928eb4e1b7636cdef4f6a06ce0eafa1e2f69965ce0ebb48ebd202a"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/liboverlap/prefixEditDistance.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/overlapReadCache.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "db45772022bd3346d79705cbda0a8f8fa5708ae835f18eb365298cac5ab49d3c"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/overlapInCore/overlapReadCache.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/gkStore.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bd6061d41b17a676a6031b528541d5a1cfb5c0e1fee538615b64f6aba14f2725"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/gkStore.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/gkStoreEncode.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b7e8be966198047bf3fead2a1b3e2de62cf312aa15d6b4ed16ed72af749bdf1b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/gkStoreEncode.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-sinksource.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4e175cf5d11e0f0bb025c21d0ff4b09db969f104850b5b32e3498737ba236a89"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-sinksource.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-stubs-internal.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "aa2a36415883c93f06173a54c2d661e50beeedcd70e591d677927bbca7ea4e4b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy-stubs-internal.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3ea46c7005ec845d5aa81f1547e91e237517cf409aecedb24f4e9803da2a2670"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/libsnappy/snappy.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovOverlap.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1ee2470528bbe8c7ceedfb0dc97a903f2aa7f10cccb84db6bad854d0ab0873df"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovOverlap.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStore.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1cff7cbec09ca21bdb2171029fefe304ce0b4aa415cbc80cfabf4e285d004574"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStore.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c5ec2850fe9e2894af2a24e00c9e98b1cccde9b5c7eb2af632ff5f484c164094"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreFilter.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "2b05d3c362383938f2efefe41d9462365ff071e4d4346e535baa2b2d9134f0a7"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreFilter.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreHistogram.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "e0472e83656c97eb6675ce36e7140bb02101662f4d513be428a463021cff2bed"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreHistogram.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreWriter.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "8208c3a287d24af2d842a277c04775c78f058967d9d55377178bf691bbbf6214"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/ovStoreWriter.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgStore.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1406bc7e3a83a36a312d824c122693e6d72bbcc49eea597088fd65c11478526a"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgStore.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTig.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ebd60a188bdcb5f3815d8f44af078176b4a36191ead97828a71bd3106e54faab"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTig.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTigMultiAlignDisplay.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ffe75f4f87ada07d374c3f1c2f5110e4747cf7468c613c9c2927b94f6c279caf"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTigMultiAlignDisplay.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "3b0dd940666b3973775eba729cdaa0b26adb8904b4a34709f841bd931d509545"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTigSizeAnalysis.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "09aa5610cb1864b245505c6037ab84d5fd476a8d5c81f6786a93b2c33ee9f560"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/stores/tgTigSizeAnalysis.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "ec76b93ed20ed7e22ce19809cfe31f810e7ac093d435cbaae7b1549f03201a62"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDFalcon/dw.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "baa1ca2e483641292d0d68a142fdeeb4903f1e500e4bd6331741c59f7a06cadf"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDFalcon/dw.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/Binomial_Bound.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "57ad727e476fdae3d3739d1d91cfd66068c27d32aa0d68a6eab1b1972a529528"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/Binomial_Bound.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-allocateMoreSpace.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1aa903036e3dd8a9dbd31ef1d4f64c880f53bdbf5649f2c16c13daa74af6cf4b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-allocateMoreSpace.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-extend.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "96b3b74d13ed73338714cf33b948ccc8470895b6c1b4d0c85ace03e6c743e4c7"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-extend.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-forward.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "fb898c3f03d0e4290343d9527ebdf68dbdb8d8ab514b6243379ea80e3154c8b1"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-forward.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-reverse.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "93296a6e7c294e58eb9b433d262800d7b9107df36514213220f4658d578e1736"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm-reverse.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "12beaa0ec94a6cf6882f79563715874117d1af6c9abdc6a81b858bcfee0765d9"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalgorithm.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalign.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c4647bc8bff3ebcc2b51221b1622b72efc36426f0d1ef93a88eb168b3ff6b005"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libNDalign/NDalign.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "4514d9de785ad248fe24a2a14f89f90902d75060a96d49d14555411dc826b20d"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-addRead.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c2f1834f8d1aa431d740c4edb0c4317ebbff574c2d7f652c58e87e7addcd9b56"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-addRead.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-appendBases.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d0b4b035db180e0a570f8c18ffe9371e8c2d2a201e2571be98738920928af646"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-appendBases.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-applyAlignment.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4b01459b35d35f130ff7d833d910b1adad6d34861c09eedf0127f988d25fe230"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-applyAlignment.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-baseCall.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "8f240cb03d02d711028fa2b5e3580053e53413e12d9ecea5b2b04c88dd13d299"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-baseCall.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-mergeRefine.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9dd4736be4401c92cf0d4e339e577d59001631c490016fc6ed933b2aef02c46f"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-mergeRefine.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refine.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1221b3710481899a1cffd7959b7eb21685fea0039acf4a40bd2b41193d402ca5"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refine.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refreshMultiAlign.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "66612a6326bd586939eedb60b1e6053454c3c7bd04cfd733fc817be6e11d29db"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus-refreshMultiAlign.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "401fdbba9d1e268ddc6dedfbae052e0bca71de556530c08725f8e198f8f80eae"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abAbacus.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abColumn.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1fb301fcb7ad548714d4c1ebca93fa00e80ccb2c89ad5ec6ea73e7b3235d2ca5"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abColumn.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abMultiAlign.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "2b1e7ae7abd892c11fd19384f36e34371e35e328952f8784df61ca7fbbc24f87"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/abMultiAlign.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/unitigConsensus.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "5d1d6b48fbe40882b8f446c8c5ceb26e0f821e460a71c40211a6c102fba00f23"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libcns/unitigConsensus.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/Alignment.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c41501421fc8bdcb56b9b5d37211757bfa3897f8360156cedee221f8b3a1f638"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/Alignment.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/AlnGraphBoost.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0583ae6b9401aa50194cbcb2a5d1c461003bdfa0a592f893c364c6c0d7d0376b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libcanu.a/utgcns/libpbutgcns/AlnGraphBoost.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "2b6090c1ef0ae050ea2f60b55d8008e2d8bcbbbbc1374644a4a3a097b588688f"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "fb0e8b104c999d9dd4bee74baab64126ac5604c9e3b2d78e14089cebf692a61b"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaStdin.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9540216d82de07a1650ce56438583a40da32ea8692eec10e31c32098cf3c6005"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastaStdin.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3f683d08ee683c38777c7331606a23246565c9458f522508e8a009d509f1f622"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqStdin.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "67face145ad76ddf82f711b3b8a3b9cf8b7e15d772fdbb7c7b656e7705bd94ca"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/fastqStdin.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/gkStoreFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "15ff7f021cb11f91b106360eb330b57ff6108ab3ee33393c2c6916bdf6b52695"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/gkStoreFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/merStream.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "dafeb3ab5391113ba4b686e14b36e1bfc0087705b76549a733b10c92d3e533ca"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/merStream.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqCache.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0174e8c51f17115c476d2eca980f633602b4ce1acee449a072286d55e62c03b0"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqCache.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqFactory.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f73e7563e2f8a9379a67ed4da813c5625aee18a38ebd5e671fab50c30951bce2"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqFactory.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStore.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "5726f1bace4db1ad0fc9bbe6a60af60089f85266db37769eb6a74caf6cbc6711"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStore.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStream.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "2c95bdcd160cd8206f9a1f4c0fa2d231e40e8c0366e8fbe6d6c1ab861bac6160"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/seqStream.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/sffFile.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6a0f88d6c6c591822a4b25c8310630e9dc207a277f7e848c5afe39964d821522"
+      },
+      {
+        "_path": "Linux-amd64/obj/libleaff.a/meryl/libleaff/sffFile.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/maskMers/meryl/maskMers.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "108d5bc300e571b743922533b2b3c79f8b1d234e451c965c3c31ca0b83a50345"
+      },
+      {
+        "_path": "Linux-amd64/obj/maskMers/meryl/maskMers.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "11f3149ee4a32b04a16511f9982d765d805217f726e58d7961d810c6694af4a4"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-args.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "fae97f86a74024aa2a1cada18d9ce9d6e8aec0728ea2c4250cf7cb2206f06f06"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-args.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-binaryOp.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6fb379721e5b5c06533170a8fe1ebfb331481f196587dad845bdc7fa0caa2ae5"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-binaryOp.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-build.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c2ab55048f441b0bf1a4b281ee55d68156bee6093b4136fac03cc28fe8149aec"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-build.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-dump.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bb3e7f7b81ed919eebcdc7718ef075498654ef307c9a6bce36c1d11907e94d9a"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-dump.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "2e228d38ab4c1c00d8f051185c3448a658a32f83229e98570667f81ecc47df93"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-estimate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "1f2e75745eca43242ebcfbad010dbc2865a74eed281cdbbc1396ef787d83eb96"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-estimate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-merge.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "a59d20644a0ceefe712b5fb1482167e9ff7ec2e176e881101cd1296fd321e282"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-merge.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-unaryOp.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4525a7a6e3b3a60409ad25e777f7bf8dc1169eb34744257322e7c0468873f3b4"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl-unaryOp.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "4b430ec0404f9c574969b812d1bb91236a461567001fc5c8f9274a00d133a61c"
+      },
+      {
+        "_path": "Linux-amd64/obj/meryl/meryl/meryl.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/mhapConvert/mhap/mhapConvert.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "f6b62ea59c529c46e2469301d59454948d20863b1101edb89c15c8649b74131a"
+      },
+      {
+        "_path": "Linux-amd64/obj/mhapConvert/mhap/mhapConvert.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/mmapConvert/minimap/mmapConvert.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3ef9c3ca279152194042637637a03729bd351e58b77553dbc6e4a00c2390d3c4"
+      },
+      {
+        "_path": "Linux-amd64/obj/mmapConvert/minimap/mmapConvert.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreBucketizer/stores/ovStoreBucketizer.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "c9448c53b2655d5169dbab3a0f1bad1771b82041633b7688e95f3418d1e7cda5"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreBucketizer/stores/ovStoreBucketizer.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreBuild/stores/ovStoreBuild.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "577c479a440cc4007c1c77821ca9ae6414fc8b9ad0ec7fd262be1f357c43f19b"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreBuild/stores/ovStoreBuild.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreDump/stores/ovStoreDump.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7d4c1d5f1f109f8021524b7a8799d0a9be683ec992e8e9d8fa5d34fe44cec5cb"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreDump/stores/ovStoreDump.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreIndexer/stores/ovStoreIndexer.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "e7a317e4c8550730160fa7fc9add604444366b342106640dec91af4fd628143d"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreIndexer/stores/ovStoreIndexer.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreSorter/stores/ovStoreSorter.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b537ce9a5aa3c71c36246c4a3241dce44071682859aba1779d087f15019e6d5b"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreSorter/stores/ovStoreSorter.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreStats/stores/ovStoreStats.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "34c35520b90f0bd41509b55418a18df02fb84dcbe2451303ec87d7046656dfea"
+      },
+      {
+        "_path": "Linux-amd64/obj/ovStoreStats/stores/ovStoreStats.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapConvert/overlapInCore/overlapConvert.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d66da07f17b03ced282ec5c9d23ac7ad16def6e14b821012f851cd6be1692ae4"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapConvert/overlapInCore/overlapConvert.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapImport/overlapInCore/overlapImport.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "bd7b7b46abe1fcb3f9dd6c5fb587f4492c4db2a2b5a6cb2b38c3c0e2013148e6"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapImport/overlapInCore/overlapImport.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Build_Hash_Index.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "06ebe48319b450f6a66678d15066cbca57efe5808a0f83544d392642ffe7238e"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Build_Hash_Index.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Find_Overlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "883912f102aadc56c39a5b2b4d56d7aa07ea784bb2e1bdbd3f3681b32853ebb5"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Find_Overlaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Output.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "2f23499271f87099e9e663e614f8d6c192924d020191f737ce2ae923cbabed40"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Output.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_Overlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7dfc1f3910d09c3d4e07b84b00a278d6e6e452a09be94789a871e53e44715834"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_Overlaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_String_Overlaps.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "9465ea8d092f8a7bd41d98db5f1204c890225ad88ce91e632013f0a7bc19d146"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore-Process_String_Overlaps.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d1fa2fd19c0aa244942e8a576f41cae14492df4253579f83b2c3c3f2c938eac5"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCore/overlapInCore/overlapInCore.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCorePartition/overlapInCore/overlapInCorePartition.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "030cd8c7893d04bad1305169dbf9961b851f5d282b413096cb78607c2d97e9fa"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapInCorePartition/overlapInCore/overlapInCorePartition.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapPair/overlapInCore/overlapPair.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "89f50467c5a257c5ef0a7bfaed445020dd1dee7904a05d4fadf392a0b746abd1"
+      },
+      {
+        "_path": "Linux-amd64/obj/overlapPair/overlapInCore/overlapPair.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/prefixEditDistance-matchLimitGenerate/overlapInCore/liboverlap/prefixEditDistance-matchLimitGenerate.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7268aca76330b7633c9c74a330b56c3b1d31f830105ac72c154c1f8a907beca9"
+      },
+      {
+        "_path": "Linux-amd64/obj/prefixEditDistance-matchLimitGenerate/overlapInCore/liboverlap/prefixEditDistance-matchLimitGenerate.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/readConsensus/correction/readConsensus.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b904ff9130e7d3dac29ecc89d5306d84978afc3c8c096a0cd01a7374816344cf"
+      },
+      {
+        "_path": "Linux-amd64/obj/readConsensus/correction/readConsensus.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/simple/meryl/simple.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "52b22c602f97f6e7e0c2eb6732ad7aa42496a164d4bba3492a2e0f45d9122e06"
+      },
+      {
+        "_path": "Linux-amd64/obj/simple/meryl/simple.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "519fc3d2646f8ef447d4e8d7df6315996d9ad1d892e981c6a6ee247bc46255f0"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustFlipped.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7e05d175c7f99686c5b17869a788bb138d9d810b8264647b37fb08b2921ecdc8"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustFlipped.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustNormal.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "62509345830461c6f785e9cfe91284d986e9df76acb97b29c7d31cf1506e74de"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/adjustNormal.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-subReads.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "cf42d69d015bb5afa03337c460a2c980315250db574a1e70adae2a3e99060b07"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-subReads.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-trimBad.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0dbff7c299aa82770ee83b024c96c2f270dcba54e27367e0d2c567e0a9bdb8ef"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-trimBad.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-workUnit.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "0ae9b4a4858c9efcc56ec3ba8341cecac2b75252a5abb3c582a27213fbbd68ac"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads-workUnit.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "7e132348e24f112720d0d8ee7a2f1f95704f5abaa4e1627c60acbdf2e7e96033"
+      },
+      {
+        "_path": "Linux-amd64/obj/splitReads/overlapBasedTrimming/splitReads.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreCompress/stores/tgStoreCompress.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "da29bf709912413e6eabd56c1503489d8756f9d794abecdd77f737a3f1d415e7"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreCompress/stores/tgStoreCompress.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreCoverageStat/stores/tgStoreCoverageStat.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "35ec9369a341eb85b2cf4a9e10ff603987b0f77f72e9b03bdc0a49c07fce0530"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreCoverageStat/stores/tgStoreCoverageStat.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "1a6263648655ba0ca0d767ad4d506cff81f207299a6191027cb726163fb91ebd"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreDump/stores/tgStoreDump.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "3c2ed29037d471b6f67082df87b3ed7f68301267ff54d7d834f05ad7043d8cc8"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreDump/stores/tgStoreDump.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreDump/stores/tgTigSizeAnalysis.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "703dd4dbde48eaa36d23b3120451912e011fb67f16e217137da100906f52a6f7"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreDump/stores/tgTigSizeAnalysis.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "ec76b93ed20ed7e22ce19809cfe31f810e7ac093d435cbaae7b1549f03201a62"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreFilter/stores/tgStoreFilter.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "491e506d52d010f466dc773a3b84735d50d858aea6b5c203b52b844db87dd5ad"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreFilter/stores/tgStoreFilter.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreLoad/stores/tgStoreLoad.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "5093acd4b05076e9835b0b66f1ab0429dbd4b04510d54bb64b79429f57145fec"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgStoreLoad/stores/tgStoreLoad.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgTigDisplay/stores/tgTigDisplay.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "31474724a5d0e474da9056fb40b6ffc9141b294526996074f52f2af57a1137a3"
+      },
+      {
+        "_path": "Linux-amd64/obj/tgTigDisplay/stores/tgTigDisplay.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-bestEdge.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "d280f8c15e8cb43dce138ee9b0000e3d9b29657bde9d45880d1a0973eaf38eed"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-bestEdge.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "9088a71f2e71edc2633de5601b3dd6ae6a2d3e6e4d13a4698405e438c197d364"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-largestCovered.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b53d9a059f24b8933c715ff56994b71b73f98cb894675ee784a70b032dedff43"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-largestCovered.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-quality.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ffa1aaec9cb9bda77e00db3778f714eea28db47f64b404eb6bf38724f9d8de86"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads-quality.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "ac5f692480f793d1f8eb4b761e8a4becded400170a90f9909ac20b1c4fcccaa8"
+      },
+      {
+        "_path": "Linux-amd64/obj/trimReads/overlapBasedTrimming/trimReads.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "Linux-amd64/obj/utgcns/utgcns/stashContains.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "25a1e701cc71ae0b2fb1f907e6964d4b52de33aa86b7a09f8965d70889aa1f86"
+      },
+      {
+        "_path": "Linux-amd64/obj/utgcns/utgcns/stashContains.o",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "e525cff02c712c4926da5234908fd626383dd9d4f73514b8bc20395850cda8a8"
+      },
+      {
+        "_path": "Linux-amd64/obj/utgcns/utgcns/utgcns.P",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b6cc251af6e1fcf12a5eb49338c16f8ef0d70a6b484019991cd2d9c7035f8032"
+      },
+      {
+        "_path": "Linux-amd64/obj/utgcns/utgcns/utgcns.o",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/bogart",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/bogus",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/canu",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/cc1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/cc1obj",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/cc1plus",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/collect2",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/correctOverlaps",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/createFalconSenseInputs",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/erateEstimate",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/errorEstimate",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/estimate-mer-threshold",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/f951",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/falcon_sense",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fastqAnalyze",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fastqSample",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fastqSimulate",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fastqSimulate-sort",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/filterCorrectionOverlaps",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/findErrors",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/findErrors-Dump",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fixinc.sh",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/fixincl",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gatekeeperCreate",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gatekeeperDumpFASTQ",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gatekeeperDumpMetaData",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gatekeeperPartition",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/generateCorrectionLayouts",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/gengtype",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/jc1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/jvgenmain",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/leaff",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/liblto_plugin.so.0.0.0",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/lto-wrapper",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/lto1",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/maskMers",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/meryl",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/mhapConvert",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/mkheaders",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/mkinstalldirs",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/mmapConvert",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreBucketizer",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreBuild",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreDump",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreIndexer",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreSorter",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/ovStoreStats",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/overlapConvert",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/overlapImport",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/overlapInCore",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/overlapInCorePartition",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/overlapPair",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/prefixEditDistance-matchLimitGenerate",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/readConsensus",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/simple",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/splitReads",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgStoreCompress",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgStoreCoverageStat",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgStoreDump",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgStoreFilter",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgStoreLoad",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/tgTigDisplay",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/trimReads",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "bin/utgcns",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "libexec/bogart",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "3b57e4b146f2986f1520d1adca22aca5a3c73ccfd40efeae37e4a9999d537ad7"
+      },
+      {
+        "_path": "libexec/bogus",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "65ffc36d1cab0169c57d346395f301a8d4758519b168c5a8c38207ba6225413c"
+      },
+      {
+        "_path": "libexec/canu",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/canu.defaults",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/correctOverlaps",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "a936f350094b18d7892d443fbe1be3f57a355bcd9990d8818c50bc3217fb781b"
+      },
+      {
+        "_path": "libexec/createFalconSenseInputs",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "beeb748c2b21f8d78037161f03e598b4ea9ed4fc209d131d228762c8da40cac6"
+      },
+      {
+        "_path": "libexec/erateEstimate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "cdc254881159cbf6cea17ef770a175032b40a303209c353e515bb5f190515124"
+      },
+      {
+        "_path": "libexec/errorEstimate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "90ed6c69cd8cc9322e3ff5e9ce4514f3c9783ee9e99ead1e55b6c31868c499c8"
+      },
+      {
+        "_path": "libexec/estimate-mer-threshold",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "5f72cc7f065701344bade9e6dc677a23dd3c733249cc069d442ad4511e63cdc3"
+      },
+      {
+        "_path": "libexec/falcon_sense",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "7733208aae8d56de2d507498a76c7985cbfde993e47ef98eab6339cafd230cc4"
+      },
+      {
+        "_path": "libexec/fastqAnalyze",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "77c95fad58fb048502f08f9e1ce098bc7ed2ae8207cb53b060992e5463dad6de"
+      },
+      {
+        "_path": "libexec/fastqSample",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "c8a746ebf7b1dfbaa19226003ddd962ea97d981000a1b5581c2772a86201b46a"
+      },
+      {
+        "_path": "libexec/fastqSimulate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "698de58ca52f93971396c1a4e79aed2a8b1fb4a2d6f90b8ce2eee9390536268d"
+      },
+      {
+        "_path": "libexec/fastqSimulate-sort",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "8d4caa2cd13ef6c99103e55e3f256c2ee0379c3e44ed8438b0a04e2de877de99"
+      },
+      {
+        "_path": "libexec/filterCorrectionOverlaps",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "5c5939754208d3dd552d3fa6625461056c4f2411188bf2cc0118ad48f452d508"
+      },
+      {
+        "_path": "libexec/findErrors",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "48e53d7ed63903ebdb470af3c019340780daf461fb4448ec5f3cadffd83630ec"
+      },
+      {
+        "_path": "libexec/findErrors-Dump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "21d91e1cb29ba7e09d7381ad312b45031e6935d3f9b93420f7fae7eecf12210c"
+      },
+      {
+        "_path": "libexec/gatekeeperCreate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "a9c8f80a4bae052c776c1c2532c5daf126c1998bd7edd97ce113b2b1b24977f2"
+      },
+      {
+        "_path": "libexec/gatekeeperDumpFASTQ",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "39986d2a68803b1f6a05e26a1d88590fd534b5b46bb16b963236324d560ec556"
+      },
+      {
+        "_path": "libexec/gatekeeperDumpMetaData",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "1f3b2ba62a8e1052cab6e805377112542223877546a9cfa784c16b0021420ef4"
+      },
+      {
+        "_path": "libexec/gatekeeperPartition",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "2e34917a33e5ec71056a7917bf5aba6e90247d69ff9818a16186d3c246945374"
+      },
+      {
+        "_path": "libexec/generateCorrectionLayouts",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "86e57ac18a87e7ec9e43b915770add2e93e605372d8d3c489c4affcf8ca9179f"
+      },
+      {
+        "_path": "libexec/leaff",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "31b9c52d8c21f7c840ae6145d09c39ebd14e34b753e6a3b937780e7bc3071942"
+      },
+      {
+        "_path": "libexec/lib/canu/Configure.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Consensus.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/CorrectReads.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Defaults.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/ErrorEstimate.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Execution.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Gatekeeper.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Grid.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Grid_LSF.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Grid_PBSTorque.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Grid_SGE.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Grid_Slurm.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/HTML.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Meryl.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Output.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapBasedTrimming.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapErrorAdjustment.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapInCore.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapMMap.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapMhap.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/OverlapStore.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/lib/canu/Unitig.pm",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/libcanu.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/libleaff.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/maskMers",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "ee9ddac221c14c6fc87375d52c9e638cc8c3f8be3edee98ede0c76ceb4118824"
+      },
+      {
+        "_path": "libexec/meryl",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "a1684d18273fe3c69a1f68f5c3d0dd825bfd10511098a2ebcf5610adc60585e8"
+      },
+      {
+        "_path": "libexec/mhap-2.1.2.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/mhapConvert",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "5eb5aba08b5d8d765bb10b56953a24814121181fcbe42f49e37fc50f2f845577"
+      },
+      {
+        "_path": "libexec/mmapConvert",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "72fbe87dea51d241f9822afa6e70e8b1b850d4d54b2b1fbe6c57f7b917d511c4"
+      },
+      {
+        "_path": "libexec/ovStoreBucketizer",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "421765e8b1c4626fda0d7690ef8bb10ce0b0b6917a10a789d85d7085bf1a381c"
+      },
+      {
+        "_path": "libexec/ovStoreBuild",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "4ab067bb8d98c22305c7d8b97b6a4ab10c800442d60982acfe71d9b6a7376d3f"
+      },
+      {
+        "_path": "libexec/ovStoreDump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "6e74d407e7f27de1795fd38af2b04c4e54a5efc73ff4db232111818d62fe085b"
+      },
+      {
+        "_path": "libexec/ovStoreIndexer",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "508b1ad9ac17de451de4fdbba598b1ef743bd6d75dfac8abe4a3e7d2f1dfd736"
+      },
+      {
+        "_path": "libexec/ovStoreSorter",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "871648591e9987d8049a3de94460b5176ca81d740fa648abeb9ff894be7d7d7b"
+      },
+      {
+        "_path": "libexec/ovStoreStats",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "2bd59b30d1624381e24d1590ea70c81730bd6439b6b90c9bfc85909014bf9c10"
+      },
+      {
+        "_path": "libexec/overlapConvert",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "6606b79664e1e73293e5cc5fc47a9bbd47cc61225694ed71a1b45ba3bde0441d"
+      },
+      {
+        "_path": "libexec/overlapImport",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "22c3e87424c3c1fd7cb86d6f4765bd10d6a4d619acf95c08797b9680994b5695"
+      },
+      {
+        "_path": "libexec/overlapInCore",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "c3ce84fc3cef52acfee4ee9a8036250467e314dd4c70e90b021010ff04792002"
+      },
+      {
+        "_path": "libexec/overlapInCorePartition",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "04828dd36676209b08c3ea338ac89e002f3e4c7a1c5525dfd6d4c5900c3e7fea"
+      },
+      {
+        "_path": "libexec/overlapPair",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "fb5c86ff30430ec8b3e527f335268ab58ac02d71a038e7b8223d9e353e224315"
+      },
+      {
+        "_path": "libexec/prefixEditDistance-matchLimitGenerate",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "c71fb5dc6456d958a2f10d45083dc0fb42455dafc611ac83f90d82965108309b"
+      },
+      {
+        "_path": "libexec/readConsensus",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "7679ab9b7582b6622095d38fa949af75885efecc545259e7b9f85d73feff5d3e"
+      },
+      {
+        "_path": "libexec/simple",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "575be2097934b2b3819f3027e7c5f89fdfcadfb904713a1f96eb592ba6a0553d"
+      },
+      {
+        "_path": "libexec/splitReads",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "9ada4f283c11b87822a9725939eaa4fb5fbe9601a683c4b6b32866ebfb1ad101"
+      },
+      {
+        "_path": "libexec/tgStoreCompress",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "0426aa06d0109da27bf9778355ac9f8c00d17cc6bfa01a75c67a95360389ccef"
+      },
+      {
+        "_path": "libexec/tgStoreCoverageStat",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "0d32243be506726cf31c8e18d2d05797a64f78f4fb94f424281291db0305d190"
+      },
+      {
+        "_path": "libexec/tgStoreDump",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "93903ffe486f3504dce50a5e9d579e0ddcbb9830ccf14dc322046d2b87058db0"
+      },
+      {
+        "_path": "libexec/tgStoreFilter",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "0ab2f4c04ab7e310f6ded548999879c75e093ebb9ff37373a0c07fd695c94b49"
+      },
+      {
+        "_path": "libexec/tgStoreLoad",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "43550c729d62d6dbc60452b72c703c876c4b324f28732f8cde9e56d38aa08419"
+      },
+      {
+        "_path": "libexec/tgTigDisplay",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "34a8d94515187207a144b0c32af7b378404f7c8e4da7939efe47d076e9b407fe"
+      },
+      {
+        "_path": "libexec/trimReads",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "a7079285a5691a9e596c85e3b533123ecf469433af822d8e1e39883ef2512183"
+      },
+      {
+        "_path": "libexec/utgcns",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256_in_prefix": "491e46e3695f4a993cd2ededebae11e8f3f9ba4431f817d7e8673611d03593f7"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "canu",
+  "sha256": "e1527827958f7272eb7d342b9d4aa0d91ba1e643c6514b7870c48b797652d992",
+  "size": 7371799,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/canu-1.4-1.tar.bz2",
+  "version": "1.4"
+}

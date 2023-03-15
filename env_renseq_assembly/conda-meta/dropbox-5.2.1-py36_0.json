@@ -1,0 +1,242 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*",
+    "requests >=2.5.1",
+    "six >=1.3.0",
+    "urllib3"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/dropbox-5.2.1-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/dropbox/__init__.py",
+    "lib/python3.6/site-packages/dropbox/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/async.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/auth.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/babel_serializers.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/babel_validators.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/base_team.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/client.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/dropbox.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/exceptions.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/files.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/oauth.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/rest.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/session.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/sharing.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/team.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/__pycache__/users.cpython-36.pyc",
+    "lib/python3.6/site-packages/dropbox/async.py",
+    "lib/python3.6/site-packages/dropbox/auth.py",
+    "lib/python3.6/site-packages/dropbox/babel_serializers.py",
+    "lib/python3.6/site-packages/dropbox/babel_validators.py",
+    "lib/python3.6/site-packages/dropbox/base.py",
+    "lib/python3.6/site-packages/dropbox/base_team.py",
+    "lib/python3.6/site-packages/dropbox/client.py",
+    "lib/python3.6/site-packages/dropbox/dropbox.py",
+    "lib/python3.6/site-packages/dropbox/exceptions.py",
+    "lib/python3.6/site-packages/dropbox/files.py",
+    "lib/python3.6/site-packages/dropbox/oauth.py",
+    "lib/python3.6/site-packages/dropbox/rest.py",
+    "lib/python3.6/site-packages/dropbox/session.py",
+    "lib/python3.6/site-packages/dropbox/sharing.py",
+    "lib/python3.6/site-packages/dropbox/team.py",
+    "lib/python3.6/site-packages/dropbox/trusted-certs.crt",
+    "lib/python3.6/site-packages/dropbox/users.py"
+  ],
+  "fn": "dropbox-5.2.1-py36_0.tar.bz2",
+  "license": "https://raw.githubusercontent.com/dropbox/dropbox-sdk-python/master/LICENSE",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/dropbox-5.2.1-py36_0",
+    "type": 1
+  },
+  "md5": "ea525556210d90fd97c8058dcb56d1d3",
+  "name": "dropbox",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/dropbox-5.2.1-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox-5.2.1-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/async.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/auth.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/babel_serializers.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/babel_validators.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/base.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/base_team.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/client.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/dropbox.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/exceptions.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/files.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/oauth.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/rest.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/session.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/sharing.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/team.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/__pycache__/users.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/async.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/auth.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/babel_serializers.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/babel_validators.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/base.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/base_team.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/client.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/dropbox.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/exceptions.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/files.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/oauth.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/rest.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/session.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/sharing.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/team.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/trusted-certs.crt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/dropbox/users.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "634c95e5c6bffebd26d1c6d5c59df9228234260384729ea3116fdac3885e6cdc",
+  "size": 275928,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/dropbox-5.2.1-py36_0.tar.bz2",
+  "version": "5.2.1"
+}

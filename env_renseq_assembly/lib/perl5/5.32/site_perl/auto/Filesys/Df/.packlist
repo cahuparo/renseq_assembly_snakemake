@@ -1,0 +1,3 @@
+/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/perl5/5.32/site_perl/Filesys/Df.pm relocate_as=../../../Filesys/Df.pm
+/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/perl5/5.32/site_perl/auto/Filesys/Df/Df.so relocate_as=Df.so
+/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/man/man3/Filesys::Df.3 relocate_as=../../../../../../../man/man3/Filesys::Df.3

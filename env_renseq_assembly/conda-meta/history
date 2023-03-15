@@ -1,0 +1,109 @@
+==> 2023-03-15 12:00:54 <==
+# cmd: /home/chparada/anaconda3/bin/conda create --prefix /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly
+# conda version: 22.9.0
+==> 2023-03-15 12:02:20 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda snakemake
+# conda version: 22.9.0
++bioconda/linux-64::dropbox-5.2.1-py36_0
++bioconda/linux-64::filechunkio-1.6-py36_0
++bioconda/linux-64::ftputil-3.2-py36_0
++bioconda/linux-64::pysftp-0.2.9-py36_0
++bioconda/linux-64::snakemake-3.13.3-py36_0
++defaults/linux-64::_libgcc_mutex-0.1-main
++defaults/linux-64::_openmp_mutex-5.1-1_gnu
++defaults/linux-64::bcrypt-3.2.0-py36h7b6447c_0
++defaults/linux-64::blas-1.0-mkl
++defaults/linux-64::brotlipy-0.7.0-py36h27cfd23_1003
++defaults/linux-64::ca-certificates-2023.01.10-h06a4308_0
++defaults/linux-64::certifi-2021.5.30-py36h06a4308_0
++defaults/linux-64::cffi-1.14.6-py36h400218f_0
++defaults/linux-64::cryptography-35.0.0-py36hd23ed53_0
++defaults/linux-64::docutils-0.17.1-py36h06a4308_1
++defaults/linux-64::intel-openmp-2022.1.0-h9e868ea_3769
++defaults/linux-64::ld_impl_linux-64-2.38-h1181459_1
++defaults/linux-64::libffi-3.3-he6710b0_2
++defaults/linux-64::libgcc-ng-11.2.0-h1234567_1
++defaults/linux-64::libgomp-11.2.0-h1234567_1
++defaults/linux-64::libsodium-1.0.18-h7b6447c_0
++defaults/linux-64::libstdcxx-ng-11.2.0-h1234567_1
++defaults/linux-64::mkl-2020.2-256
++defaults/linux-64::mkl-service-2.3.0-py36he8ac12f_0
++defaults/linux-64::mkl_fft-1.3.0-py36h54f3939_0
++defaults/linux-64::mkl_random-1.1.1-py36h0573a6f_0
++defaults/linux-64::ncurses-6.4-h6a678d5_0
++defaults/linux-64::numpy-1.19.2-py36h54aff64_0
++defaults/linux-64::numpy-base-1.19.2-py36hfa32c7d_0
++defaults/linux-64::openssl-1.1.1t-h7f8727e_0
++defaults/linux-64::pandas-1.1.5-py36ha9443f7_0
++defaults/linux-64::pip-21.2.2-py36h06a4308_0
++defaults/linux-64::psutil-5.8.0-py36h27cfd23_1
++defaults/linux-64::pynacl-1.4.0-py36h7b6447c_1
++defaults/linux-64::pysocks-1.7.1-py36h06a4308_0
++defaults/linux-64::python-3.6.13-h12debd9_1
++defaults/linux-64::pyyaml-5.4.1-py36h27cfd23_1
++defaults/linux-64::readline-8.2-h5eee18b_0
++defaults/linux-64::setuptools-58.0.4-py36h06a4308_0
++defaults/linux-64::sqlite-3.41.1-h5eee18b_0
++defaults/linux-64::tk-8.6.12-h1ccaba5_0
++defaults/linux-64::wrapt-1.12.1-py36h7b6447c_1
++defaults/linux-64::xz-5.2.10-h5eee18b_1
++defaults/linux-64::yaml-0.2.5-h7b6447c_0
++defaults/linux-64::zlib-1.2.13-h5eee18b_0
++defaults/noarch::charset-normalizer-2.0.4-pyhd3eb1b0_0
++defaults/noarch::idna-3.3-pyhd3eb1b0_0
++defaults/noarch::paramiko-2.8.1-pyhd3eb1b0_0
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/noarch::pyopenssl-22.0.0-pyhd3eb1b0_0
++defaults/noarch::python-dateutil-2.8.2-pyhd3eb1b0_0
++defaults/noarch::pytz-2021.3-pyhd3eb1b0_0
++defaults/noarch::requests-2.27.1-pyhd3eb1b0_0
++defaults/noarch::six-1.16.0-pyhd3eb1b0_1
++defaults/noarch::urllib3-1.26.8-pyhd3eb1b0_0
++defaults/noarch::wheel-0.37.1-pyhd3eb1b0_0
+# update specs: ['snakemake']
+==> 2023-03-15 12:03:14 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda pbccs
+# conda version: 22.9.0
++bioconda/linux-64::pbccs-6.4.0-h9ee0642_0
+# update specs: ['pbccs']
+==> 2023-03-15 12:03:31 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda bamtools
+# conda version: 22.9.0
++bioconda/linux-64::bamtools-2.5.1-h9a82719_9
+# update specs: ['bamtools']
+==> 2023-03-15 12:03:46 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda bam2fastx
+# conda version: 22.9.0
++bioconda/linux-64::bam2fastx-3.0.0-h9ee0642_0
++bioconda/linux-64::pbtk-3.1.0-h9ee0642_0
+# update specs: ['bam2fastx']
+==> 2023-03-15 12:04:00 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda cutadapt
+# conda version: 22.9.0
++bioconda/linux-64::cutadapt-1.18-py36h14c3975_1
++bioconda/noarch::xopen-0.7.3-py_0
++defaults/linux-64::bz2file-0.98-py36h06a4308_1
++defaults/linux-64::pigz-2.6-h27cfd23_0
+# update specs: ['cutadapt']
+==> 2023-03-15 12:04:14 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda blasr
+# conda version: 22.9.0
++bioconda/linux-64::blasr-5.3.5-0
+# update specs: ['blasr']
+==> 2023-03-15 12:04:28 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda biopython
+# conda version: 22.9.0
++defaults/linux-64::biopython-1.78-py36h7f8727e_0
+# update specs: ['biopython']
+==> 2023-03-15 12:05:25 <==
+# cmd: /home/chparada/anaconda3/bin/conda install -c bioconda canu
+# conda version: 22.9.0
++bioconda/linux-64::canu-1.4-1
++bioconda/linux-64::gnuplot-4.6.0-1
++bioconda/linux-64::java-jdk-8.0.92-1
++bioconda/linux-64::perl-filesys-df-0.92-pl5321hec16e2b_5
++bioconda/noarch::perl-threaded-5.32.1-hdfd78af_1
++defaults/linux-64::libgcc-7.2.0-h69d50b8_2
++defaults/linux-64::libnsl-2.0.0-h5eee18b_0
++defaults/linux-64::perl-5.32.1-0_h5eee18b_perl5
+# update specs: ['canu']

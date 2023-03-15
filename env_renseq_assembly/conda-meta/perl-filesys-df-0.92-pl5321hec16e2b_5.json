@@ -1,0 +1,72 @@
+{
+  "build": "pl5321hec16e2b_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0",
+    "perl >=5.32.1,<5.33.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/perl-filesys-df-0.92-pl5321hec16e2b_5",
+  "features": "",
+  "files": [
+    "lib/perl5/5.32/site_perl/Filesys/Df.pm",
+    "lib/perl5/5.32/site_perl/auto/Filesys/Df/.packlist",
+    "lib/perl5/5.32/site_perl/auto/Filesys/Df/Df.so",
+    "man/man3/Filesys::Df.3"
+  ],
+  "fn": "perl-filesys-df-0.92-pl5321hec16e2b_5.tar.bz2",
+  "license": "unknown",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/perl-filesys-df-0.92-pl5321hec16e2b_5",
+    "type": 1
+  },
+  "md5": "7c6874e5c08cbbc273154bc7cacbd857",
+  "name": "perl-filesys-df",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/perl-filesys-df-0.92-pl5321hec16e2b_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/perl5/5.32/site_perl/Filesys/Df.pm",
+        "path_type": "hardlink",
+        "sha256": "63ebdaecd0619337c56184ac9538b74321d8aacef67ee8ed275522a8153dcbc4",
+        "sha256_in_prefix": "63ebdaecd0619337c56184ac9538b74321d8aacef67ee8ed275522a8153dcbc4",
+        "size_in_bytes": 11324
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Filesys/Df/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-filesys-df_1645520730822/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "a7a8de859f2359f4f904be3b29dbb2f6aad26b69299bfd92868371e69bbd315d",
+        "sha256_in_prefix": "62fc536b9f814e436190062f040fe1d2106640640650e6d509ecd943251569bb",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "lib/perl5/5.32/site_perl/auto/Filesys/Df/Df.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/perl-filesys-df_1645520730822/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "dc3619fc555aa2bf6720e4c70b95655359c71615d5fea838652b8e0479c173da",
+        "sha256_in_prefix": "40a483083a8113b63ae74210c236891743319a15d5be1abd7d633796ac7ac069",
+        "size_in_bytes": 15976
+      },
+      {
+        "_path": "man/man3/Filesys::Df.3",
+        "path_type": "hardlink",
+        "sha256": "f802c19b514da3981d5e80b7956cce636e1e89a3918e687f3c6d7417ca963af4",
+        "sha256_in_prefix": "f802c19b514da3981d5e80b7956cce636e1e89a3918e687f3c6d7417ca963af4",
+        "size_in_bytes": 7510
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b73515d2d1c9c3c1998475db6de1816fe64c894cc6eeccb0948b9e7199725fc7",
+  "size": 15809,
+  "subdir": "linux-64",
+  "timestamp": 1645520969608,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/perl-filesys-df-0.92-pl5321hec16e2b_5.tar.bz2",
+  "version": "0.92"
+}

@@ -1,0 +1,97 @@
+{
+  "build": "h9ee0642_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/pbtk-3.1.0-h9ee0642_0",
+  "features": "",
+  "files": [
+    "bin/bam2fasta",
+    "bin/bam2fastq",
+    "bin/ccs-kinetics-bystrandify",
+    "bin/extracthifi",
+    "bin/pbindex",
+    "bin/pbindexdump",
+    "bin/pbmerge",
+    "bin/zmwfilter"
+  ],
+  "fn": "pbtk-3.1.0-h9ee0642_0.tar.bz2",
+  "license": "BSD-3-Clause-Clear",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/pbtk-3.1.0-h9ee0642_0",
+    "type": 1
+  },
+  "md5": "3f60454916e58f7e3933f5adf9de1e39",
+  "name": "pbtk",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/pbtk-3.1.0-h9ee0642_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bam2fasta",
+        "path_type": "hardlink",
+        "sha256": "d9f6a7aed543b98c3194de370d2beb16623bc9ce9cc473126690ec7cf791b126",
+        "sha256_in_prefix": "d9f6a7aed543b98c3194de370d2beb16623bc9ce9cc473126690ec7cf791b126",
+        "size_in_bytes": 2396728
+      },
+      {
+        "_path": "bin/bam2fastq",
+        "path_type": "hardlink",
+        "sha256": "c79474f0628026e8a42cf69b114e88870211f2d878f9c7dce457d35d85a63363",
+        "sha256_in_prefix": "c79474f0628026e8a42cf69b114e88870211f2d878f9c7dce457d35d85a63363",
+        "size_in_bytes": 2409048
+      },
+      {
+        "_path": "bin/ccs-kinetics-bystrandify",
+        "path_type": "hardlink",
+        "sha256": "707ab90b2e7c4e38fee211edd7daff84e9559c54bdc6517df71be15392d3449c",
+        "sha256_in_prefix": "707ab90b2e7c4e38fee211edd7daff84e9559c54bdc6517df71be15392d3449c",
+        "size_in_bytes": 2642520
+      },
+      {
+        "_path": "bin/extracthifi",
+        "path_type": "hardlink",
+        "sha256": "6af00238b1e3c7aab1be18eb076b82cf94e178b539c0d9cc3fb330f5d3c61cf0",
+        "sha256_in_prefix": "6af00238b1e3c7aab1be18eb076b82cf94e178b539c0d9cc3fb330f5d3c61cf0",
+        "size_in_bytes": 2007576
+      },
+      {
+        "_path": "bin/pbindex",
+        "path_type": "hardlink",
+        "sha256": "cde8e64625285cc771e31714397e30e482e77f1a250fad5876a0a79eeba5ef48",
+        "sha256_in_prefix": "cde8e64625285cc771e31714397e30e482e77f1a250fad5876a0a79eeba5ef48",
+        "size_in_bytes": 2036248
+      },
+      {
+        "_path": "bin/pbindexdump",
+        "path_type": "hardlink",
+        "sha256": "96339bd872c5a8908d2d39c5e85ca023a9221d37ee366a73897a6b4c20795112",
+        "sha256_in_prefix": "96339bd872c5a8908d2d39c5e85ca023a9221d37ee366a73897a6b4c20795112",
+        "size_in_bytes": 1909272
+      },
+      {
+        "_path": "bin/pbmerge",
+        "path_type": "hardlink",
+        "sha256": "cf88ec2052c7c4aed24ba86b5097d3ccba274912ed75f0206d2a45419a98a00a",
+        "sha256_in_prefix": "cf88ec2052c7c4aed24ba86b5097d3ccba274912ed75f0206d2a45419a98a00a",
+        "size_in_bytes": 2540120
+      },
+      {
+        "_path": "bin/zmwfilter",
+        "path_type": "hardlink",
+        "sha256": "cf79cd447cd18718939325f051d1ca68463ac26be41b6a20391d2866c3dae01b",
+        "sha256_in_prefix": "cf79cd447cd18718939325f051d1ca68463ac26be41b6a20391d2866c3dae01b",
+        "size_in_bytes": 2454104
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8d4cd88e66d19f489eafba6bf9fd05db5364cb8e3794a8ee0bf7afd578b3a137",
+  "size": 7806641,
+  "subdir": "linux-64",
+  "timestamp": 1678796155454,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pbtk-3.1.0-h9ee0642_0.tar.bz2",
+  "version": "3.1.0"
+}

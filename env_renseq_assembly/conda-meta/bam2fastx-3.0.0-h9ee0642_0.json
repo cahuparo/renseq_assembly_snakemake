@@ -1,0 +1,33 @@
+{
+  "build": "h9ee0642_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "pbtk >=3.1.*"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/bam2fastx-3.0.0-h9ee0642_0",
+  "features": "",
+  "files": [],
+  "fn": "bam2fastx-3.0.0-h9ee0642_0.tar.bz2",
+  "license": "BSD-3-Clause-Clear",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/bam2fastx-3.0.0-h9ee0642_0",
+    "type": 1
+  },
+  "md5": "c929af4e3d21138fa9cc81d834e25602",
+  "name": "bam2fastx",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/bam2fastx-3.0.0-h9ee0642_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "bam2fastx",
+  "sha256": "db864b34eb25eba0068dded9feb27124e43d706e71812d633b39b01755b88851",
+  "size": 6571,
+  "subdir": "linux-64",
+  "timestamp": 1678796455839,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bam2fastx-3.0.0-h9ee0642_0.tar.bz2",
+  "version": "3.0.0"
+}

@@ -1,0 +1,49 @@
+{
+  "build": "h9ee0642_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/pbccs-6.4.0-h9ee0642_0",
+  "features": "",
+  "files": [
+    "bin/ccs",
+    "bin/ccs-alt"
+  ],
+  "fn": "pbccs-6.4.0-h9ee0642_0.tar.bz2",
+  "license": "BSD-3-Clause-Clear",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/pbccs-6.4.0-h9ee0642_0",
+    "type": 1
+  },
+  "md5": "cc6fd59a5aedeefc5e6cd8af7594559b",
+  "name": "pbccs",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/pbccs-6.4.0-h9ee0642_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ccs",
+        "path_type": "hardlink",
+        "sha256": "242bd8b27185ffb6d6528556197d7c4bc04bf9dc3d04149a025f587fd138b9d8",
+        "sha256_in_prefix": "242bd8b27185ffb6d6528556197d7c4bc04bf9dc3d04149a025f587fd138b9d8",
+        "size_in_bytes": 4632056
+      },
+      {
+        "_path": "bin/ccs-alt",
+        "path_type": "hardlink",
+        "sha256": "c6332f1d5c154e6de2891b22317e191e7ab9fbc55c75293a48e7cf6fb28b0243",
+        "sha256_in_prefix": "c6332f1d5c154e6de2891b22317e191e7ab9fbc55c75293a48e7cf6fb28b0243",
+        "size_in_bytes": 3748568
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pbccs",
+  "sha256": "8a291fc4313e575aa5e6a8eab5699abfbf61f8b97757aa662e54a35700199934",
+  "size": 3700091,
+  "subdir": "linux-64",
+  "timestamp": 1650354317627,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pbccs-6.4.0-h9ee0642_0.tar.bz2",
+  "version": "6.4.0"
+}

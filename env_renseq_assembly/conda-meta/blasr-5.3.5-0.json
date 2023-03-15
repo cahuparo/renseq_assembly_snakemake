@@ -1,0 +1,49 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/blasr-5.3.5-0",
+  "features": "",
+  "files": [
+    "bin/.blasr-post-link.sh",
+    "bin/blasr"
+  ],
+  "fn": "blasr-5.3.5-0.tar.bz2",
+  "license": "BSD-3-Clause-Clear",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/blasr-5.3.5-0",
+    "type": 1
+  },
+  "md5": "b72d82760c292d10b08f65be744f3253",
+  "name": "blasr",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/blasr-5.3.5-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.blasr-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "ff0283d81fa4ab9fbaf35a5ba88e827c5c606c7a8d83cba3081379274cf61127",
+        "sha256_in_prefix": "ff0283d81fa4ab9fbaf35a5ba88e827c5c606c7a8d83cba3081379274cf61127",
+        "size_in_bytes": 2227
+      },
+      {
+        "_path": "bin/blasr",
+        "path_type": "hardlink",
+        "sha256": "3f19a57b93adc80a7bef9aae406440d72c345ab38c5a7fc30340c49cd36aecbb",
+        "sha256_in_prefix": "3f19a57b93adc80a7bef9aae406440d72c345ab38c5a7fc30340c49cd36aecbb",
+        "size_in_bytes": 9674008
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "blasr",
+  "sha256": "1252c2f78d6c063f753d1e4fc6f58579793cca9c1b0a8d05807674855dc785e0",
+  "size": 3642462,
+  "subdir": "linux-64",
+  "timestamp": 1613659846040,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/blasr-5.3.5-0.tar.bz2",
+  "version": "5.3.5"
+}

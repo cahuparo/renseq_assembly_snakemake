@@ -1,0 +1,42 @@
+{
+  "build": "py36h54aff64_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgcc-ng >=7.3.0",
+    "mkl >=2019.4,<2021.0a0",
+    "mkl-service >=2,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.19.2 py36hfa32c7d_0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/numpy-1.19.2-py36h54aff64_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.19.2-py36h54aff64_0.conda",
+  "legacy_bz2_md5": "cae2d87feed42ad60b50a3d211de1560",
+  "legacy_bz2_size": 21112,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/numpy-1.19.2-py36h54aff64_0",
+    "type": 1
+  },
+  "md5": "4a21e30d9344e37ea2d848f52f6a2d8e",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/numpy-1.19.2-py36h54aff64_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b942f9fd66e4e2caaa75153ee12f0d85177bbc9918b8483aa1f06e10d0f9c4d8",
+  "size": 22159,
+  "subdir": "linux-64",
+  "timestamp": 1603487994722,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.19.2-py36h54aff64_0.conda",
+  "version": "1.19.2"
+}

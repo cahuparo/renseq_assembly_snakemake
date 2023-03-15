@@ -1,0 +1,371 @@
+/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/Linux-amd64/obj/bogart/bogart/AS_BAT_PromoteToSingleton.o: \
+ bogart/AS_BAT_PromoteToSingleton.C bogart/AS_BAT_Logging.H \
+ /opt/conda/conda-bld/work/canu-1.4/src/AS_global.H /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/inttypes.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed/limits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/string.h /usr/include/ctype.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/float.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h /usr/include/assert.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h AS_UTL/AS_UTL_alloc.H \
+ AS_UTL/AS_UTL_fileIO.H \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/vector \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_algobase.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/functexcept.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/exception_defines.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/cpp_type_traits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/type_traits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/numeric_traits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_pair.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/move.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/concept_check.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator_base_types.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator_base_funcs.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/debug/debug.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algobase.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/base.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_function.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/backward/binders.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/omp.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/features.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/basic_iterator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/parallel.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/compiletime_settings.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cstdio \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/types.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cstdlib \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/limits \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/cstdint \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/tags.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/settings.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algorithmfwd.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/find.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/compatibility.h \
+ /usr/include/sched.h /usr/include/bits/sched.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/equally_split.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/find_selectors.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/allocator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/new_allocator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/new \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/exception \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/atomic_lockfree_defines.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/memoryfwd.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_construct.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/alloc_traits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_uninitialized.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_vector.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_bvector.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/range_access.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/vector.tcc \
+ /usr/include/sys/uio.h /usr/include/bits/uio.h bogart/AS_BAT_Unitig.H \
+ bogart/AS_BAT_TigVector.H AS_UTL/stddev.H \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/algorithm \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/utility \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_relops.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_algo.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/algorithmfwd.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_heap.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_tempbuf.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algorithm \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algo.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/iterator.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/sort.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiway_mergesort.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiway_merge.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/losertree.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiseq_selection.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/queue \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/deque \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_deque.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/deque.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_queue.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/quicksort.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/partition.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/random_number.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cmath \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/string \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stringfwd.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/char_traits.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/postypes.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cwchar \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/localefwd.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++locale.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/iosfwd \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cctype \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/ostream_insert.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/cxxabi_forced.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/basic_string.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/atomicity.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/bits/setjmp.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/basic_string.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/type_traits \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/cmath \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/gamma.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/special_function_util.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/bessel_function.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/beta_function.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/ell_integral.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/exp_integral.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/hypergeometric.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/legendre_function.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/modified_bessel_func.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/poly_hermite.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/poly_laguerre.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/riemann_zeta.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random.tcc \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/balanced_quicksort.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/queue.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/workstealing.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/par_loop.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/omp_loop.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/omp_loop_static.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/for_each_selectors.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/for_each.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/search.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/random_shuffle.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_numeric.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/merge.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/unique_copy.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/set_operations.h \
+ bogart/AS_BAT_ReadInfo.H stores/ovStore.H stores/gkStore.H \
+ AS_UTL/memoryMappedFile.H AS_UTL/AS_UTL_fileIO.H /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/set \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_tree.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_set.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_multiset.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/map \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_map.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_multimap.h \
+ AS_UTL/writeBuffer.H stores/ovOverlap.H stores/ovStoreFile.H \
+ stores/ovStoreHistogram.H stores/gkStore.H \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/list \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_list.h \
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/list.tcc
+ bogart/AS_BAT_PromoteToSingleton.C bogart/AS_BAT_Logging.H :
+ /opt/conda/conda-bld/work/canu-1.4/src/AS_global.H /usr/include/stdio.h :
+ /usr/include/features.h /usr/include/sys/cdefs.h :
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h :
+ /usr/include/gnu/stubs-64.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stddef.h :
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h :
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stdarg.h :
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h :
+ /usr/include/bits/stdio.h /usr/include/stdlib.h :
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h :
+ /usr/include/endian.h /usr/include/bits/endian.h :
+ /usr/include/bits/byteswap.h /usr/include/xlocale.h :
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h :
+ /usr/include/bits/select.h /usr/include/bits/sigset.h :
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h :
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/stdint.h :
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/inttypes.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed/limits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include-fixed/syslimits.h :
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h :
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h :
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h :
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h :
+ /usr/include/bits/environments.h /usr/include/bits/confname.h :
+ /usr/include/getopt.h /usr/include/string.h /usr/include/ctype.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/float.h :
+ /usr/include/math.h /usr/include/bits/huge_val.h :
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h :
+ /usr/include/bits/inf.h /usr/include/bits/nan.h :
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h :
+ /usr/include/bits/mathinline.h /usr/include/assert.h :
+ /usr/include/errno.h /usr/include/bits/errno.h :
+ /usr/include/linux/errno.h /usr/include/asm/errno.h :
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h :
+ /usr/include/sys/stat.h /usr/include/bits/stat.h AS_UTL/AS_UTL_alloc.H :
+ AS_UTL/AS_UTL_fileIO.H :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/vector :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_algobase.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++config.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/os_defines.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/cpu_defines.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/functexcept.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/exception_defines.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/cpp_type_traits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/type_traits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/numeric_traits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_pair.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/move.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/concept_check.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator_base_types.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator_base_funcs.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/debug/debug.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_iterator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algobase.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/base.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_function.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/backward/binders.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/lib/gcc/x86_64-unknown-linux-gnu/4.8.5/include/omp.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/features.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/basic_iterator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/parallel.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/compiletime_settings.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cstdio :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/types.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cstdlib :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/limits :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/cstdint :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/tags.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/settings.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algorithmfwd.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/find.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/compatibility.h :
+ /usr/include/sched.h /usr/include/bits/sched.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/equally_split.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/find_selectors.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/allocator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++allocator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/new_allocator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/new :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/exception :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/atomic_lockfree_defines.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/memoryfwd.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_construct.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/alloc_traits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_uninitialized.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_vector.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_bvector.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/range_access.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/vector.tcc :
+ /usr/include/sys/uio.h /usr/include/bits/uio.h bogart/AS_BAT_Unitig.H :
+ bogart/AS_BAT_TigVector.H AS_UTL/stddev.H :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/algorithm :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/utility :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_relops.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_algo.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/algorithmfwd.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_heap.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_tempbuf.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algorithm :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/algo.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/iterator.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/sort.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiway_mergesort.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiway_merge.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/losertree.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/multiseq_selection.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/queue :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/deque :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_deque.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/deque.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_queue.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/quicksort.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/partition.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/random_number.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cmath :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/string :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stringfwd.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/char_traits.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/postypes.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cwchar :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/localefwd.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/c++locale.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/clocale :
+ /usr/include/locale.h /usr/include/bits/locale.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/iosfwd :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/cctype :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/ostream_insert.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/cxxabi_forced.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/basic_string.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/ext/atomicity.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/gthr.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/gthr-default.h :
+ /usr/include/pthread.h /usr/include/bits/setjmp.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/x86_64-unknown-linux-gnu/bits/atomic_word.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/basic_string.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/type_traits :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/cmath :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/gamma.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/special_function_util.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/bessel_function.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/beta_function.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/ell_integral.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/exp_integral.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/hypergeometric.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/legendre_function.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/modified_bessel_func.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/poly_hermite.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/poly_laguerre.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/riemann_zeta.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/tr1/random.tcc :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/balanced_quicksort.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/queue.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/workstealing.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/par_loop.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/omp_loop.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/omp_loop_static.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/for_each_selectors.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/for_each.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/search.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/random_shuffle.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_numeric.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/merge.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/unique_copy.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/parallel/set_operations.h :
+ bogart/AS_BAT_ReadInfo.H stores/ovStore.H stores/gkStore.H :
+ AS_UTL/memoryMappedFile.H AS_UTL/AS_UTL_fileIO.H /usr/include/fcntl.h :
+ /usr/include/bits/fcntl.h /usr/include/sys/mman.h :
+ /usr/include/bits/mman.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/set :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_tree.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_set.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_multiset.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/map :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_map.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_multimap.h :
+ AS_UTL/writeBuffer.H stores/ovOverlap.H stores/ovStoreFile.H :
+ stores/ovStoreHistogram.H stores/gkStore.H :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/list :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/stl_list.h :
+ /data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly/gcc/include/c++/bits/list.tcc :

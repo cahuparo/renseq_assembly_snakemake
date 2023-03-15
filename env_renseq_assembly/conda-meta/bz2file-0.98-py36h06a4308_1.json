@@ -1,0 +1,61 @@
+{
+  "build": "py36h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/bz2file-0.98-py36h06a4308_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/bz2file.cpython-36.pyc",
+    "lib/python3.6/site-packages/bz2file-0.98-py3.6.egg-info",
+    "lib/python3.6/site-packages/bz2file.py"
+  ],
+  "fn": "bz2file-0.98-py36h06a4308_1.conda",
+  "legacy_bz2_md5": "b5064d7a2fdf317569d6a139477479b4",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/bz2file-0.98-py36h06a4308_1",
+    "type": 1
+  },
+  "md5": "657a8fd2619c5d34214531e368dac785",
+  "name": "bz2file",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/bz2file-0.98-py36h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/bz2file.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5c57e3d912f77dff4a3fa5885ef1f08299905811101bf8c34f7180396f1baca",
+        "sha256_in_prefix": "e5c57e3d912f77dff4a3fa5885ef1f08299905811101bf8c34f7180396f1baca",
+        "size_in_bytes": 13649
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bz2file-0.98-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "3b57d0d86358f70ad5d4224de9697ab0bc643cd23298b74a9c5d647fc2e205df",
+        "sha256_in_prefix": "3b57d0d86358f70ad5d4224de9697ab0bc643cd23298b74a9c5d647fc2e205df",
+        "size_in_bytes": 3079
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bz2file.py",
+        "path_type": "hardlink",
+        "sha256": "8a252b63dfc8621c81e304addbb6c22a75d6822afd81f2a1ac17c02463c0669b",
+        "sha256_in_prefix": "8a252b63dfc8621c81e304addbb6c22a75d6822afd81f2a1ac17c02463c0669b",
+        "size_in_bytes": 18340
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1adf6f8c6e256403477d78fd960f08f64f26c1a2d68e909d36f02324599391d0",
+  "size": 250959,
+  "subdir": "linux-64",
+  "timestamp": 1613038465784,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/bz2file-0.98-py36h06a4308_1.conda",
+  "version": "0.98"
+}

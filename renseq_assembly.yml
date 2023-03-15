@@ -1,0 +1,12 @@
+name: renseq_assembly
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - pbccs
+  - bamtools
+  - bam2fastx
+  - cutadapt
+  - blasr
+  - biopython
+  - canu

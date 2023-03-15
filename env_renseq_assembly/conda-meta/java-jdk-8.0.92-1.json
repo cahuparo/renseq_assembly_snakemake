@@ -1,0 +1,1432 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/java-jdk-8.0.92-1",
+  "features": "",
+  "files": [
+    "bin/appletviewer",
+    "bin/extcheck",
+    "bin/idlj",
+    "bin/jar",
+    "bin/jarsigner",
+    "bin/java",
+    "bin/java-rmi.cgi",
+    "bin/javac",
+    "bin/javadoc",
+    "bin/javah",
+    "bin/javap",
+    "bin/jcmd",
+    "bin/jconsole",
+    "bin/jdb",
+    "bin/jdeps",
+    "bin/jhat",
+    "bin/jinfo",
+    "bin/jjs",
+    "bin/jmap",
+    "bin/jps",
+    "bin/jrunscript",
+    "bin/jsadebugd",
+    "bin/jstack",
+    "bin/jstat",
+    "bin/jstatd",
+    "bin/keytool",
+    "bin/native2ascii",
+    "bin/orbd",
+    "bin/pack200",
+    "bin/policytool",
+    "bin/rmic",
+    "bin/rmid",
+    "bin/rmiregistry",
+    "bin/schemagen",
+    "bin/serialver",
+    "bin/servertool",
+    "bin/tnameserv",
+    "bin/unpack200",
+    "bin/wsgen",
+    "bin/wsimport",
+    "bin/xjc",
+    "include/classfile_constants.h",
+    "include/jawt.h",
+    "include/jdwpTransport.h",
+    "include/jni.h",
+    "include/jvmti.h",
+    "include/jvmticmlr.h",
+    "include/linux/jawt_md.h",
+    "include/linux/jni_md.h",
+    "jre/ASSEMBLY_EXCEPTION",
+    "jre/LICENSE",
+    "jre/THIRD_PARTY_README",
+    "jre/bin/java",
+    "jre/bin/jjs",
+    "jre/bin/keytool",
+    "jre/bin/orbd",
+    "jre/bin/pack200",
+    "jre/bin/policytool",
+    "jre/bin/rmid",
+    "jre/bin/rmiregistry",
+    "jre/bin/servertool",
+    "jre/bin/tnameserv",
+    "jre/bin/unpack200",
+    "jre/lib/amd64/jli/libjli.so",
+    "jre/lib/amd64/jvm.cfg",
+    "jre/lib/amd64/libattach.so",
+    "jre/lib/amd64/libawt.so",
+    "jre/lib/amd64/libawt_headless.so",
+    "jre/lib/amd64/libawt_xawt.so",
+    "jre/lib/amd64/libdt_socket.so",
+    "jre/lib/amd64/libfontmanager.so",
+    "jre/lib/amd64/libfreetype.so.6",
+    "jre/lib/amd64/libhprof.so",
+    "jre/lib/amd64/libinstrument.so",
+    "jre/lib/amd64/libj2gss.so",
+    "jre/lib/amd64/libj2pcsc.so",
+    "jre/lib/amd64/libj2pkcs11.so",
+    "jre/lib/amd64/libjaas_unix.so",
+    "jre/lib/amd64/libjava.so",
+    "jre/lib/amd64/libjava_crw_demo.so",
+    "jre/lib/amd64/libjawt.so",
+    "jre/lib/amd64/libjdwp.so",
+    "jre/lib/amd64/libjpeg.so",
+    "jre/lib/amd64/libjsdt.so",
+    "jre/lib/amd64/libjsig.so",
+    "jre/lib/amd64/libjsound.so",
+    "jre/lib/amd64/libjsoundalsa.so",
+    "jre/lib/amd64/liblcms.so",
+    "jre/lib/amd64/libmanagement.so",
+    "jre/lib/amd64/libmlib_image.so",
+    "jre/lib/amd64/libnet.so",
+    "jre/lib/amd64/libnio.so",
+    "jre/lib/amd64/libnpt.so",
+    "jre/lib/amd64/libsaproc.so",
+    "jre/lib/amd64/libsctp.so",
+    "jre/lib/amd64/libsplashscreen.so",
+    "jre/lib/amd64/libsunec.so",
+    "jre/lib/amd64/libunpack.so",
+    "jre/lib/amd64/libverify.so",
+    "jre/lib/amd64/libzip.so",
+    "jre/lib/amd64/server/Xusage.txt",
+    "jre/lib/amd64/server/libjsig.so",
+    "jre/lib/amd64/server/libjvm.so",
+    "jre/lib/calendars.properties",
+    "jre/lib/charsets.jar",
+    "jre/lib/classlist",
+    "jre/lib/cmm/CIEXYZ.pf",
+    "jre/lib/cmm/GRAY.pf",
+    "jre/lib/cmm/LINEAR_RGB.pf",
+    "jre/lib/cmm/PYCC.pf",
+    "jre/lib/cmm/sRGB.pf",
+    "jre/lib/content-types.properties",
+    "jre/lib/currency.data",
+    "jre/lib/ext/cldrdata.jar",
+    "jre/lib/ext/dnsns.jar",
+    "jre/lib/ext/jaccess.jar",
+    "jre/lib/ext/localedata.jar",
+    "jre/lib/ext/meta-index",
+    "jre/lib/ext/nashorn.jar",
+    "jre/lib/ext/sunec.jar",
+    "jre/lib/ext/sunjce_provider.jar",
+    "jre/lib/ext/sunpkcs11.jar",
+    "jre/lib/ext/zipfs.jar",
+    "jre/lib/flavormap.properties",
+    "jre/lib/fontconfig.Fedora.bfc",
+    "jre/lib/fontconfig.Fedora.properties.src",
+    "jre/lib/fontconfig.SuSE.bfc",
+    "jre/lib/fontconfig.SuSE.properties.src",
+    "jre/lib/fontconfig.Ubuntu.bfc",
+    "jre/lib/fontconfig.Ubuntu.properties.src",
+    "jre/lib/fontconfig.bfc",
+    "jre/lib/fontconfig.properties.src",
+    "jre/lib/fonts/DejaVuMathTeXGyre.ttf",
+    "jre/lib/fonts/DejaVuSans-Bold.ttf",
+    "jre/lib/fonts/DejaVuSans-BoldOblique.ttf",
+    "jre/lib/fonts/DejaVuSans-ExtraLight.ttf",
+    "jre/lib/fonts/DejaVuSans-Oblique.ttf",
+    "jre/lib/fonts/DejaVuSans.ttf",
+    "jre/lib/fonts/DejaVuSansCondensed-Bold.ttf",
+    "jre/lib/fonts/DejaVuSansCondensed-BoldOblique.ttf",
+    "jre/lib/fonts/DejaVuSansCondensed-Oblique.ttf",
+    "jre/lib/fonts/DejaVuSansCondensed.ttf",
+    "jre/lib/fonts/DejaVuSansMono-Bold.ttf",
+    "jre/lib/fonts/DejaVuSansMono-BoldOblique.ttf",
+    "jre/lib/fonts/DejaVuSansMono-Oblique.ttf",
+    "jre/lib/fonts/DejaVuSansMono.ttf",
+    "jre/lib/fonts/DejaVuSerif-Bold.ttf",
+    "jre/lib/fonts/DejaVuSerif-BoldItalic.ttf",
+    "jre/lib/fonts/DejaVuSerif-Italic.ttf",
+    "jre/lib/fonts/DejaVuSerif.ttf",
+    "jre/lib/fonts/DejaVuSerifCondensed-Bold.ttf",
+    "jre/lib/fonts/DejaVuSerifCondensed-BoldItalic.ttf",
+    "jre/lib/fonts/DejaVuSerifCondensed-Italic.ttf",
+    "jre/lib/fonts/DejaVuSerifCondensed.ttf",
+    "jre/lib/hijrah-config-umalqura.properties",
+    "jre/lib/images/cursors/cursors.properties",
+    "jre/lib/images/cursors/invalid32x32.gif",
+    "jre/lib/images/cursors/motif_CopyDrop32x32.gif",
+    "jre/lib/images/cursors/motif_CopyNoDrop32x32.gif",
+    "jre/lib/images/cursors/motif_LinkDrop32x32.gif",
+    "jre/lib/images/cursors/motif_LinkNoDrop32x32.gif",
+    "jre/lib/images/cursors/motif_MoveDrop32x32.gif",
+    "jre/lib/images/cursors/motif_MoveNoDrop32x32.gif",
+    "jre/lib/jce.jar",
+    "jre/lib/jexec",
+    "jre/lib/jsse.jar",
+    "jre/lib/jvm.hprof.txt",
+    "jre/lib/logging.properties",
+    "jre/lib/management-agent.jar",
+    "jre/lib/management/jmxremote.access",
+    "jre/lib/management/jmxremote.password.template",
+    "jre/lib/management/management.properties",
+    "jre/lib/management/snmp.acl.template",
+    "jre/lib/meta-index",
+    "jre/lib/net.properties",
+    "jre/lib/psfont.properties.ja",
+    "jre/lib/psfontj2d.properties",
+    "jre/lib/resources.jar",
+    "jre/lib/rt.jar",
+    "jre/lib/security/US_export_policy.jar",
+    "jre/lib/security/blacklisted.certs",
+    "jre/lib/security/cacerts",
+    "jre/lib/security/java.policy",
+    "jre/lib/security/java.security",
+    "jre/lib/security/local_policy.jar",
+    "jre/lib/sound.properties",
+    "jre/lib/tzdb.dat",
+    "lib/ct.sym",
+    "lib/dt.jar",
+    "lib/ir.idl",
+    "lib/jconsole.jar",
+    "lib/jexec",
+    "lib/libjawt.so",
+    "lib/libjli.so",
+    "lib/libnet.so",
+    "lib/orb.idl",
+    "lib/sa-jdi.jar",
+    "lib/tools.jar",
+    "man/ja",
+    "man/ja_JP.UTF-8/man1/appletviewer.1",
+    "man/ja_JP.UTF-8/man1/extcheck.1",
+    "man/ja_JP.UTF-8/man1/idlj.1",
+    "man/ja_JP.UTF-8/man1/jar.1",
+    "man/ja_JP.UTF-8/man1/jarsigner.1",
+    "man/ja_JP.UTF-8/man1/java.1",
+    "man/ja_JP.UTF-8/man1/javac.1",
+    "man/ja_JP.UTF-8/man1/javadoc.1",
+    "man/ja_JP.UTF-8/man1/javah.1",
+    "man/ja_JP.UTF-8/man1/javap.1",
+    "man/ja_JP.UTF-8/man1/jcmd.1",
+    "man/ja_JP.UTF-8/man1/jconsole.1",
+    "man/ja_JP.UTF-8/man1/jdb.1",
+    "man/ja_JP.UTF-8/man1/jdeps.1",
+    "man/ja_JP.UTF-8/man1/jhat.1",
+    "man/ja_JP.UTF-8/man1/jinfo.1",
+    "man/ja_JP.UTF-8/man1/jjs.1",
+    "man/ja_JP.UTF-8/man1/jmap.1",
+    "man/ja_JP.UTF-8/man1/jps.1",
+    "man/ja_JP.UTF-8/man1/jrunscript.1",
+    "man/ja_JP.UTF-8/man1/jsadebugd.1",
+    "man/ja_JP.UTF-8/man1/jstack.1",
+    "man/ja_JP.UTF-8/man1/jstat.1",
+    "man/ja_JP.UTF-8/man1/jstatd.1",
+    "man/ja_JP.UTF-8/man1/keytool.1",
+    "man/ja_JP.UTF-8/man1/native2ascii.1",
+    "man/ja_JP.UTF-8/man1/orbd.1",
+    "man/ja_JP.UTF-8/man1/pack200.1",
+    "man/ja_JP.UTF-8/man1/policytool.1",
+    "man/ja_JP.UTF-8/man1/rmic.1",
+    "man/ja_JP.UTF-8/man1/rmid.1",
+    "man/ja_JP.UTF-8/man1/rmiregistry.1",
+    "man/ja_JP.UTF-8/man1/schemagen.1",
+    "man/ja_JP.UTF-8/man1/serialver.1",
+    "man/ja_JP.UTF-8/man1/servertool.1",
+    "man/ja_JP.UTF-8/man1/tnameserv.1",
+    "man/ja_JP.UTF-8/man1/unpack200.1",
+    "man/ja_JP.UTF-8/man1/wsgen.1",
+    "man/ja_JP.UTF-8/man1/wsimport.1",
+    "man/ja_JP.UTF-8/man1/xjc.1",
+    "man/man1/appletviewer.1",
+    "man/man1/extcheck.1",
+    "man/man1/idlj.1",
+    "man/man1/jar.1",
+    "man/man1/jarsigner.1",
+    "man/man1/java.1",
+    "man/man1/javac.1",
+    "man/man1/javadoc.1",
+    "man/man1/javah.1",
+    "man/man1/javap.1",
+    "man/man1/jcmd.1",
+    "man/man1/jconsole.1",
+    "man/man1/jdb.1",
+    "man/man1/jdeps.1",
+    "man/man1/jhat.1",
+    "man/man1/jinfo.1",
+    "man/man1/jjs.1",
+    "man/man1/jmap.1",
+    "man/man1/jps.1",
+    "man/man1/jrunscript.1",
+    "man/man1/jsadebugd.1",
+    "man/man1/jstack.1",
+    "man/man1/jstat.1",
+    "man/man1/jstatd.1",
+    "man/man1/keytool.1",
+    "man/man1/native2ascii.1",
+    "man/man1/orbd.1",
+    "man/man1/pack200.1",
+    "man/man1/policytool.1",
+    "man/man1/rmic.1",
+    "man/man1/rmid.1",
+    "man/man1/rmiregistry.1",
+    "man/man1/schemagen.1",
+    "man/man1/serialver.1",
+    "man/man1/servertool.1",
+    "man/man1/tnameserv.1",
+    "man/man1/unpack200.1",
+    "man/man1/wsgen.1",
+    "man/man1/wsimport.1",
+    "man/man1/xjc.1",
+    "zulu8.15.0.1-jdk8.0.92-linux_x64.tar.gz"
+  ],
+  "fn": "java-jdk-8.0.92-1.tar.bz2",
+  "license": "GPL",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/java-jdk-8.0.92-1",
+    "type": 1
+  },
+  "md5": "66e82cece62fd7ebfe7c2e09aa6168fb",
+  "name": "java-jdk",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/java-jdk-8.0.92-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/appletviewer",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/extcheck",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/idlj",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jarsigner",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/java",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/java-rmi.cgi",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/javac",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/javadoc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/javah",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/javap",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jcmd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jconsole",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jdb",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jdeps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jhat",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jinfo",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jjs",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jmap",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jrunscript",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jsadebugd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jstack",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jstat",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/jstatd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/keytool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/native2ascii",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/orbd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/pack200",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/policytool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/rmic",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/rmid",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/rmiregistry",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/schemagen",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/serialver",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/servertool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/tnameserv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/unpack200",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/wsgen",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/wsimport",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "bin/xjc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/classfile_constants.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/jawt.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/jdwpTransport.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/jni.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/jvmti.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/jvmticmlr.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/linux/jawt_md.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/linux/jni_md.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/ASSEMBLY_EXCEPTION",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/LICENSE",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/THIRD_PARTY_README",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/java",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/jjs",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/keytool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/orbd",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/pack200",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/policytool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/rmid",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/rmiregistry",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/servertool",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/tnameserv",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/bin/unpack200",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/jli/libjli.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/jvm.cfg",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libattach.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libawt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libawt_headless.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libawt_xawt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libdt_socket.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libfontmanager.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libfreetype.so.6",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libhprof.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libinstrument.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libj2gss.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libj2pcsc.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libj2pkcs11.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjaas_unix.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjava.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjava_crw_demo.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjawt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjdwp.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjpeg.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjsdt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjsig.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjsound.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libjsoundalsa.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/liblcms.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libmanagement.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libmlib_image.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libnet.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libnio.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libnpt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libsaproc.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libsctp.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libsplashscreen.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libsunec.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libunpack.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libverify.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/libzip.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/server/Xusage.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/amd64/server/libjsig.so",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "jre/lib/amd64/server/libjvm.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/calendars.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/charsets.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/classlist",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/cmm/CIEXYZ.pf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/cmm/GRAY.pf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/cmm/LINEAR_RGB.pf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/cmm/PYCC.pf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/cmm/sRGB.pf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/content-types.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/currency.data",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/cldrdata.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/dnsns.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/jaccess.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/localedata.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/meta-index",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/nashorn.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/sunec.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/sunjce_provider.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/sunpkcs11.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/ext/zipfs.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/flavormap.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.Fedora.bfc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.Fedora.properties.src",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.SuSE.bfc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.SuSE.properties.src",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.Ubuntu.bfc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.Ubuntu.properties.src",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.bfc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fontconfig.properties.src",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuMathTeXGyre.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSans-Bold.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSans-BoldOblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSans-ExtraLight.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSans-Oblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSans.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansCondensed-Bold.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansCondensed-BoldOblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansCondensed-Oblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansCondensed.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansMono-Bold.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansMono-BoldOblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansMono-Oblique.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSansMono.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerif-Bold.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerif-BoldItalic.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerif-Italic.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerif.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerifCondensed-Bold.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerifCondensed-BoldItalic.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerifCondensed-Italic.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/fonts/DejaVuSerifCondensed.ttf",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/hijrah-config-umalqura.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/cursors.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/invalid32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_CopyDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_CopyNoDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_LinkDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_LinkNoDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_MoveDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/images/cursors/motif_MoveNoDrop32x32.gif",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/jce.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/jexec",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/jsse.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/jvm.hprof.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/logging.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/management-agent.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/management/jmxremote.access",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/management/jmxremote.password.template",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/management/management.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/management/snmp.acl.template",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/meta-index",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/net.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/psfont.properties.ja",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/psfontj2d.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/resources.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/rt.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/US_export_policy.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/blacklisted.certs",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/cacerts",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/java.policy",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/java.security",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/security/local_policy.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/sound.properties",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "jre/lib/tzdb.dat",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/ct.sym",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/dt.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/ir.idl",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/jconsole.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/jexec",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libjawt.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libjli.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libnet.so",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/orb.idl",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/sa-jdi.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/tools.jar",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/appletviewer.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/extcheck.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/idlj.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jar.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jarsigner.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/java.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/javac.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/javadoc.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/javah.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/javap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jcmd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jconsole.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jdb.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jdeps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jhat.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jinfo.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jjs.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jmap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jrunscript.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jsadebugd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jstack.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jstat.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/jstatd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/keytool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/native2ascii.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/orbd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/pack200.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/policytool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/rmic.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/rmid.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/rmiregistry.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/schemagen.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/serialver.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/servertool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/tnameserv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/unpack200.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/wsgen.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/wsimport.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/ja_JP.UTF-8/man1/xjc.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/appletviewer.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/extcheck.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/idlj.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jar.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jarsigner.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/java.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/javac.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/javadoc.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/javah.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/javap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jcmd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jconsole.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jdb.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jdeps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jhat.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jinfo.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jjs.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jmap.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jps.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jrunscript.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jsadebugd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jstack.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jstat.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/jstatd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/keytool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/native2ascii.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/orbd.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/pack200.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/policytool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/rmic.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/rmid.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/rmiregistry.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/schemagen.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/serialver.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/servertool.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/tnameserv.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/unpack200.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/wsgen.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/wsimport.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "man/man1/xjc.1",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "zulu8.15.0.1-jdk8.0.92-linux_x64.tar.gz",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3e71ee1143af59b7df7b43cf5d8706116cd28f57672d8e8f7c98770c457c317f",
+  "size": 128223979,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/java-jdk-8.0.92-1.tar.bz2",
+  "version": "8.0.92"
+}

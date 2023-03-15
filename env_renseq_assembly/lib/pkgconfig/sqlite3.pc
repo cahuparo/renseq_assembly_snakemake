@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/data/run/chparada/renseq_assembly_snakemake/env_renseq_assembly
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.41.1
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz -lm -ldl -lpthread 
+Cflags: -I${includedir}

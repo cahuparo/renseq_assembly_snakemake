@@ -1,0 +1,154 @@
+{
+  "build": "py36h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.1",
+    "libgcc-ng >=7.3.0",
+    "pip",
+    "python >=3.6,<3.7.0a0",
+    "six >=1.4.1"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/bcrypt-3.2.0-py36h7b6447c_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/LICENSE",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/bcrypt/__about__.py",
+    "lib/python3.6/site-packages/bcrypt/__init__.py",
+    "lib/python3.6/site-packages/bcrypt/__pycache__/__about__.cpython-36.pyc",
+    "lib/python3.6/site-packages/bcrypt/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/bcrypt/_bcrypt.abi3.so",
+    "lib/python3.6/site-packages/bcrypt/py.typed"
+  ],
+  "fn": "bcrypt-3.2.0-py36h7b6447c_0.conda",
+  "legacy_bz2_md5": "11c8d5c6efe2b60279da8e6b7ec93fee",
+  "legacy_bz2_size": 48166,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/bcrypt-3.2.0-py36h7b6447c_0",
+    "type": 1
+  },
+  "md5": "e205b2d8cdb0c4ca48735727f3944960",
+  "name": "bcrypt",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/bcrypt-3.2.0-py36h7b6447c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+        "sha256_in_prefix": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+        "size_in_bytes": 10850
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "19d0fbcbdccd173e2923024cb28aa804d3148b417c2a638f0045963d9f3a816c",
+        "sha256_in_prefix": "19d0fbcbdccd173e2923024cb28aa804d3148b417c2a638f0045963d9f3a816c",
+        "size_in_bytes": 7471
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4f07fc00583b109558a04a0ecd17d27e04d6ee2f79d0d5c74beff38dc5f30c41",
+        "sha256_in_prefix": "4f07fc00583b109558a04a0ecd17d27e04d6ee2f79d0d5c74beff38dc5f30c41",
+        "size_in_bytes": 1053
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3ad3a8ff7af0c02580925482d81842a81309fd1ddd74eea20419c3ac1f7ac19c",
+        "sha256_in_prefix": "3ad3a8ff7af0c02580925482d81842a81309fd1ddd74eea20419c3ac1f7ac19c",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "53c850cdcb96408783e0105d29c555d0ce6f8cd006fedde5c768c33d8744d03c",
+        "sha256_in_prefix": "53c850cdcb96408783e0105d29c555d0ce6f8cd006fedde5c768c33d8744d03c",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt-3.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8a026db4de9f3563c4ce4e259c2333962b554ffd4f94b549cf1ce880c5860115",
+        "sha256_in_prefix": "8a026db4de9f3563c4ce4e259c2333962b554ffd4f94b549cf1ce880c5860115",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "47db452eba79e2ecbe83998a38b3abf196890122b3a67f297ff1475a8061fc73",
+        "sha256_in_prefix": "47db452eba79e2ecbe83998a38b3abf196890122b3a67f297ff1475a8061fc73",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "29c9f8966ff0b13b5330a06a1d062c1d31d0cf7c526652f031b413ea029b8488",
+        "sha256_in_prefix": "29c9f8966ff0b13b5330a06a1d062c1d31d0cf7c526652f031b413ea029b8488",
+        "size_in_bytes": 5774
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/__pycache__/__about__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f51cf2b35476a85c7e4afd0cc421068c6843e946233b53376d0339eecdace30b",
+        "sha256_in_prefix": "f51cf2b35476a85c7e4afd0cc421068c6843e946233b53376d0339eecdace30b",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "44983f9815428bf3eac8c91c6217ffd078302da73a23bd25afc9cd6562db2a01",
+        "sha256_in_prefix": "44983f9815428bf3eac8c91c6217ffd078302da73a23bd25afc9cd6562db2a01",
+        "size_in_bytes": 3283
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/_bcrypt.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "8e444b6c46687d02de6fe2e6809fba43ad1d00c2594d5553dff1266e9a91e99a",
+        "sha256_in_prefix": "8e444b6c46687d02de6fe2e6809fba43ad1d00c2594d5553dff1266e9a91e99a",
+        "size_in_bytes": 47904
+      },
+      {
+        "_path": "lib/python3.6/site-packages/bcrypt/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fde1f20d44a3093591e2848e0af0a4bacda6fe02577ede30e11191ed0d3e0086",
+  "size": 44007,
+  "subdir": "linux-64",
+  "timestamp": 1597936248557,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/bcrypt-3.2.0-py36h7b6447c_0.conda",
+  "version": "3.2.0"
+}

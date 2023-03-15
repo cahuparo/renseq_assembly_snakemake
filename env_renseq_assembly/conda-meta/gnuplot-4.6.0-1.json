@@ -1,0 +1,217 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/gnuplot-4.6.0-1",
+  "features": "",
+  "files": [
+    "bin/gnuplot",
+    "libexec/gnuplot/4.6/gnuplot_x11",
+    "share/gnuplot/4.6/PostScript/8859-1.ps",
+    "share/gnuplot/4.6/PostScript/8859-15.ps",
+    "share/gnuplot/4.6/PostScript/8859-2.ps",
+    "share/gnuplot/4.6/PostScript/8859-9.ps",
+    "share/gnuplot/4.6/PostScript/aglfn.txt",
+    "share/gnuplot/4.6/PostScript/cp1250.ps",
+    "share/gnuplot/4.6/PostScript/cp1251.ps",
+    "share/gnuplot/4.6/PostScript/cp437.ps",
+    "share/gnuplot/4.6/PostScript/cp850.ps",
+    "share/gnuplot/4.6/PostScript/cp852.ps",
+    "share/gnuplot/4.6/PostScript/koi8r.ps",
+    "share/gnuplot/4.6/PostScript/koi8u.ps",
+    "share/gnuplot/4.6/PostScript/prologue.ps",
+    "share/gnuplot/4.6/PostScript/utf-8.ps",
+    "share/gnuplot/4.6/app-defaults/Gnuplot",
+    "share/gnuplot/4.6/colors_default.gp",
+    "share/gnuplot/4.6/colors_mono.gp",
+    "share/gnuplot/4.6/colors_podo.gp",
+    "share/gnuplot/4.6/gnuplot.gih",
+    "share/gnuplot/4.6/gnuplotrc",
+    "share/gnuplot/4.6/js/README",
+    "share/gnuplot/4.6/js/canvasmath.js",
+    "share/gnuplot/4.6/js/canvastext.js",
+    "share/gnuplot/4.6/js/gnuplot_common.js",
+    "share/gnuplot/4.6/js/gnuplot_dashedlines.js",
+    "share/gnuplot/4.6/js/gnuplot_mouse.css",
+    "share/gnuplot/4.6/js/gnuplot_mouse.js",
+    "share/gnuplot/4.6/js/gnuplot_svg.js",
+    "share/gnuplot/4.6/js/grid.png",
+    "share/gnuplot/4.6/js/help.png",
+    "share/gnuplot/4.6/js/nextzoom.png",
+    "share/gnuplot/4.6/js/previouszoom.png",
+    "share/gnuplot/4.6/js/textzoom.png",
+    "share/gnuplot/4.6/lua/gnuplot-tikz.lua",
+    "share/man/man1/gnuplot.1"
+  ],
+  "fn": "gnuplot-4.6.0-1.tar.bz2",
+  "license": "Gnuplot License + others",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/gnuplot-4.6.0-1",
+    "type": 1
+  },
+  "md5": "f4b308e91d24240111a481df5ad90804",
+  "name": "gnuplot",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/gnuplot-4.6.0-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gnuplot",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "libexec/gnuplot/4.6/gnuplot_x11",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/8859-1.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/8859-15.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/8859-2.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/8859-9.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/aglfn.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/cp1250.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/cp1251.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/cp437.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/cp850.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/cp852.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/koi8r.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/koi8u.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/prologue.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/PostScript/utf-8.ps",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/app-defaults/Gnuplot",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/colors_default.gp",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/colors_mono.gp",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/colors_podo.gp",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/gnuplot.gih",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/gnuplotrc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/README",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/canvasmath.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/canvastext.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/gnuplot_common.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/gnuplot_dashedlines.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/gnuplot_mouse.css",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/gnuplot_mouse.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/gnuplot_svg.js",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/grid.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/help.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/nextzoom.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/previouszoom.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/js/textzoom.png",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/gnuplot/4.6/lua/gnuplot-tikz.lua",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man1/gnuplot.1",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7ab72b4e07408c357e7152b8b1185470f8f9bd701389638bea29ed930760ddb",
+  "size": 1888087,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/gnuplot-4.6.0-1.tar.bz2",
+  "version": "4.6.0"
+}

@@ -1,0 +1,35 @@
+{
+  "build": "hdfd78af_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "perl"
+  ],
+  "extracted_package_dir": "/home/chparada/anaconda3/pkgs/perl-threaded-5.32.1-hdfd78af_1",
+  "features": "",
+  "files": [],
+  "fn": "perl-threaded-5.32.1-hdfd78af_1.tar.bz2",
+  "license": "Perl",
+  "link": {
+    "source": "/home/chparada/anaconda3/pkgs/perl-threaded-5.32.1-hdfd78af_1",
+    "type": 1
+  },
+  "md5": "7ec21ca86ddac0449501c2463370b714",
+  "name": "perl-threaded",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/chparada/anaconda3/pkgs/perl-threaded-5.32.1-hdfd78af_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9bd22ce734711685b3ece4be2df6d754aa625cacce7f9c87486ce49ec53d4b5a",
+  "size": 5506,
+  "subdir": "noarch",
+  "timestamp": 1642420941020,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/perl-threaded-5.32.1-hdfd78af_1.tar.bz2",
+  "version": "5.32.1"
+}
