@@ -67,7 +67,7 @@ rule blasr:
 	conda:
 		"renseq_assembly.yml"
 	shell:
-		"blast extra_files/adapters.fasta -m 1 --bestn 10 --out {output} {input} | sed 's,ccs/,ccs,g'"
+		"blasr extra_files/adapters.fasta -m 1 --bestn 10 --out {output} {input} | sed 's,ccs/,ccs,g'"
 
 rule filter_m4_output:
 	input:
