@@ -37,6 +37,18 @@
     conda deactivate
     ```
     
+3. Gather raw data (bam file) for each genotype and place it in a directory labeled `bam`
+    
+    ```bash
+    mkdir bam
+    #cp or scp bam files ---> to the bam directory
+    ```
+    
+
+
+
+
+
 3. Then create a screen session
     
     ```bash
