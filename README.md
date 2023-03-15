@@ -21,7 +21,37 @@
     git clone https://github.com/cahuparo/renseq_assembly_snakemake.git
     ```
     
-2. Create the conda environment to make all tools/packages are installed:
+2. Create the conda environment to makesure that all tools/packages are installed:
+    
+    ```bash
+    conda create --prefix /path/to/the/working/directory/env_renseq_assembly
+    conda activate /path/to/the/working/directory/env_renseq_assembly
+    conda install -c bioconda snakemake
+    conda install -c bioconda pbccs
+    conda install -c bioconda bamtools
+    conda install -c bioconda bam2fastx
+    conda install -c bioconda cutadapt
+    conda install -c bioconda blasr
+    conda install -c bioconda biopython
+    conda install -c bioconda canu
+    conda deactivate
+    ```
+    
 3. Then create a screen session
+    
+    ```bash
+    screen
+    ```
+    
 4. Activate conda environment
+    
+    ```bash
+    conda activate /path/to/the/working/directory/env_renseq_assembly
+    ```
+    
 5. Run `snakemake` and monitor after `control + AD`
+    
+    ```bash
+    snakemake --latency-wait 120 --cores 32
+    ```
+    
