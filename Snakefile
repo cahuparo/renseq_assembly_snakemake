@@ -85,8 +85,19 @@ rule canu:
 		"blasr/{sample}_blasr_out.fasta"
 	output:
 		"canu/{sample}_assembly"
+	params:
+		"{sample}_assembly"
 	conda:
 		"renseq_assembly.yml"
 	threads: 15
 	shell:
-		"canu -assemble -p {output} -d {output}_e1_1m genomeSize=1m correctedErrorRate=0.010 -pacbio-corrected {input} -minOverlapLength=350 -trimReadsCoverage=1 -minReadLength=1000 -maxMemory=32 -maxThreads={threads} usegrid=0"
+		"canu -assemble -p {params} -d {output}_e1_1m \
+        genomeSize=1m \
+        correctedErrorRate=0.010 \
+        -pacbio-corrected {input} \
+        -minOverlapLength=350 \
+        -trimReadsCoverage=1 \
+        -minReadLength=1000\
+        -maxMemory=32 \
+        -maxThreads={threads} \
+        usegrid=0"
