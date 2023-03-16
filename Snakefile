@@ -2,7 +2,7 @@ configfile: "config.yaml"
 
 rule all:
 	input:
-		expand("blasr/{sample}_blasr_out.fasta", sample=config["samples"])
+		expand("canu/{sample}_assembly", sample=config["samples"])
 
 def get_extract_ccs_input_bams(wildcards):
 	return config["samples"][wildcards.sample]
@@ -24,7 +24,7 @@ rule bam2fasta:
 	input:
 		"ccs/{sample}.ccs.bam"
 	output:
-		"fasta/{sample}.ccs.fasta.gz"
+		"fasta/{sample}.ccs"
 	conda:
 		"renseq_assembly.yml"
 	shell:
@@ -47,7 +47,7 @@ rule cutadapt1:
 	conda:
 		"renseq_assembly.yml"
 	shell:
-		"cutadapt -u 65 -u - 65 -o {output} {input}"
+		"cutadapt -u 65 -u -65 -o {output} {input}"
 
 rule cutadapt2:
 	input:
