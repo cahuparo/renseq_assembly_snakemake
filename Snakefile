@@ -2,7 +2,7 @@ configfile: "config.yaml"
 
 rule all:
 	input:
-		expand("canu/{sample}_assembly", sample=config["samples"])
+		expand("canu/{sample}/{sample}_assembly_e1_1m/{sample}_assembly.contigs.fasta", sample=config["samples"])
 
 def get_extract_ccs_input_bams(wildcards):
 	return config["samples"][wildcards.sample]
@@ -84,14 +84,15 @@ rule canu:
 	input:
 		"blasr/{sample}_blasr_out.fasta"
 	output:
-		"canu/{sample}_assembly"
+		dir="canu/{sample}/{sample}_assembly_e1_1m/",
+		contigs="canu/{sample}/{sample}_assembly_e1_1m/{sample}_assembly.contigs.fasta"
 	params:
 		"{sample}_assembly"
 	conda:
 		"renseq_assembly.yml"
 	threads: 15
 	shell:
-		"canu -assemble -p {params} -d {output}_e1_1m \
+		"canu -assemble -p {params} -d {output.dir} \
         genomeSize=1m \
         correctedErrorRate=0.010 \
         -pacbio-corrected {input} \
